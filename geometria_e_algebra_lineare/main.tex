@@ -1,0 +1,35 @@
+% Info @ http://www.math.mun.ca/~edgar/thesis.html
+% Info @ http://en.wikibooks.org/wiki/LaTeX
+% Info @ http://heather.cs.ucdavis.edu/~matloff/LaTeX/LookHereFirst.html
+% Info @ http://www.emerson.emory.edu/services/latex/latex_toc.html
+
+% \label{xyz} serve per poi poter richiamare con \ref{altrings} la sezione.
+
+\documentclass[11pt,a4paper]{book}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\pagestyle{plain}
+
+\makeindex
+\begin{document}
+
+\author{Fabio Alessandro Locati}
+\title{Geometria e Algebra Lineare}
+\date{Marzo 2010}
+
+\frontmatter
+\maketitle
+\tableofcontents
+\include{capitolo0}
+
+\mainmatter
+\include{capitolo1}
+
+\backmatter
+%\bibliographystyle{amsalpha} %The style you want to use for references. 
+%\bibliography{mr,refs} %The files containing all the articles and books you ever referenced. 
+\printindex
+
+\end{document}
