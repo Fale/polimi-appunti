@@ -1,0 +1,2472 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language italian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Appunti di Fisica
+\end_layout
+
+\begin_layout Author
+Daniele Iamartino
+\end_layout
+
+\begin_layout Part
+Corpi Rigidi
+\end_layout
+
+\begin_layout Paragraph
+Definizione di corpo rigido
+\end_layout
+
+\begin_layout Standard
+Si dice corpo rigido un sistema di punti materiali in cui le distanze (posizioni
+ relative) tra tutti i punti materiali rimangono costanti durante il moto
+ del sistema (cioè indipendentemente dal 
+\series bold
+sistema di forze
+\series default
+ e 
+\series bold
+momento
+\series default
+ applicato).
+\end_layout
+
+\begin_layout Standard
+Ci sono due casi elementari di moto per un corpo rigido:
+\end_layout
+
+\begin_layout Enumerate
+Moto traslatorio puro (tutte le particelle compiono traiettorie parallele)
+\end_layout
+
+\begin_layout Enumerate
+Moto rotatorio puro (tutte le particelle compiono traiettorie circolari
+ intorno al medesimo asse di rotazione, con la medesima velocità angolare
+ istantanea)
+\end_layout
+
+\begin_layout Subparagraph
+Primo caso:
+\end_layout
+
+\begin_layout Standard
+(figura) 
+\end_layout
+
+\begin_layout Standard
+Allora posso descrivere il moto del corpo rigido mediante il solo 
+\series bold
+centro di massa
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F^{(E)}\,=\, M\cdot a_{CM}$
+\end_inset
+
+ (in base al teorema del centro di massa)
+\end_layout
+
+\begin_layout Subparagraph
+Secondo caso:
+\end_layout
+
+\begin_layout Standard
+(figura)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione: 
+\emph default
+Ogni moto di n Corpo Rigido si potrà scomporre in un moto traslatorio puro
+ e un moto rotatorio pureo (entrambi istantanei).
+\end_layout
+
+\begin_layout Paragraph
+Moto rotatorio puro
+\end_layout
+
+\begin_layout Standard
+(figura)
+\end_layout
+
+\begin_layout Standard
+L'asse di rotazione è fisso.
+ Scelgo i sistemi di riferimento in modo che 
+\emph on
+z
+\emph default
+ coincida con l'asse di rotazione fisso del corpo rigido.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V\:=\,\omega\times\overrightarrow{R}\,=\textbf{\omega}\cdot d\hat{U}_{\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V\,=\,\omega\cdot r\cdot sin\alpha\,\cdot\hat{U}_{\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E_{c}\,=\,\sum_{i}E_{c_{i}}\,=\,\sum_{i}\frac{1}{2}m_{i}v_{i}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con il corpo rigido di 
+\emph on
+n
+\emph default
+ punti materiali.
+\end_layout
+
+\begin_layout Standard
+Questo vale per ogni 
+\emph on
+sistema di punti materiali.
+
+\emph default
+ In particolare per il corpo rigido in moto rotatorio vale il vincolo cinematico
+: 
+\begin_inset Formula $\overrightarrow{{V}_{i}}\,=\,\omega\cdot d_{i}\cdot\hat{U}_{\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi:
+\begin_inset Formula $E_{c}\,=\,\overset{n}{\underset{i=1}{\sum}}\frac{1}{2}\cdot m_{i}\cdot\omega^{2}\cdot d_{i}^{2}\,=\,\frac{1}{2}\cdot\left(\overset{n}{\underset{i=1}{\sum}m_{i}\cdot d_{i}^{2}}\right)\cdot\omega^{2}\,\,=\,\,\frac{1}{2}\cdot I\cdot\omega^{2}$
+\end_inset
+
+ , dove 
+\emph on
+I
+\emph default
+ è il momento d'inerzia.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazioni:
+\end_layout
+
+\begin_layout Itemize
+Il momento d'inerzia 
+\emph on
+I
+\emph default
+ dipende dalla massa del corpo rigido e dalla sua geometria.
+\end_layout
+
+\begin_layout Itemize
+Il momento d'inerzia 
+\emph on
+I
+\emph default
+ dipende non solo dal corpo rigido in esame ma anche dall' asse di rotazione
+ (
+\emph on
+z
+\emph default
+).
+\end_layout
+
+\begin_layout Itemize
+Il momento d'inerzia 
+\emph on
+I
+\emph default
+ è costante se l'asse di rotazione è fisso, o meglio se è calcolato rispetto
+ ad un asse fisso.
+\end_layout
+
+\begin_layout Itemize
+Il momento d'inerzia 
+\emph on
+I 
+\emph default
+per un corpo rigido continuo è definito da 
+\begin_inset Formula $I\,=\,\int\int\int_{c}\left(d^{2}\left(\overrightarrow{r}\right)\cdot p\left(\overrightarrow{r}\right)\cdot dV\right)$
+\end_inset
+
+ dove 
+\begin_inset Formula $p(\overrightarrow{r})\cdot dV$
+\end_inset
+
+ è la massa infinitesima.
+\end_layout
+
+\begin_layout Standard
+Sempre valutando il moto rotatorio puro:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overrightarrow{L_{o}}\,=\,\overset{n}{\underset{i=1}{\sum}}\overrightarrow{L_{o,i}}\,=\,\overset{n}{\underset{i=1}{\sum}}\left(\overrightarrow{r_{i}}\times m_{i}\cdot\overrightarrow{v_{i}}\right)$
+\end_inset
+
+ nel caso di un corpo rigido discreto, mentre nel caso di un corpo rigido
+ 
+\begin_inset Quotes eld
+\end_inset
+
+continuo
+\begin_inset Quotes erd
+\end_inset
+
+ abbiamo la seguente forma: 
+\begin_inset Formula $\overrightarrow{L_{o}}=\int\int\int_{c}\left(\overrightarrow{r}\times\overrightarrow{V}\left(\overrightarrow{r}\right)\right)\cdot p\left(\overrightarrow{r}\right)\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione
+\emph default
+: In generale, dato un corpo rigido in rotazione intorno ad un asse fisso
+ (
+\emph on
+z
+\emph default
+) con movimento d'interzia 
+\begin_inset Formula $I_{z}$
+\end_inset
+
+(rispetto all'asse 
+\emph on
+z
+\emph default
+ di rotazione), non è facile stabilire un legame tra 
+\begin_inset Formula $\overrightarrow{L_{o}}$
+\end_inset
+
+e 
+\begin_inset Formula $I_{z}$
+\end_inset
+
+.
+ (figura)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{1}=V_{2}=\omega\cdot d\cdot sin\alpha$
+\end_inset
+
+ trovo che 
+\begin_inset Formula $\overrightarrow{L_{o}}$
+\end_inset
+
+non è diretto lungo 
+\emph on
+z
+\emph default
+ ma procede intorno a 
+\emph on
+z
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overrightarrow{L_{o}}\cdot\hat{U}_{z}\,=\, L_{z}\:=\:\overset{n}{\underset{i=1}{\sum}}\left(\overrightarrow{r_{i}}\times m_{i}\cdot\overrightarrow{V_{i}}\right)\cdot\hat{U}_{z}\:=\:\overset{n}{\underset{i=1}{\sum}}\left(m_{i}\cdot d_{i}^{2}\right)\cdot\omega\,=\, I_{z}\cdot\omega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Proposizione
+\emph default
+: 
+\begin_inset Formula $L_{(0)z}\,=\, I_{z}\cdot\omega$
+\end_inset
+
+ La componente assiale (
+\begin_inset Formula $L_{z}$
+\end_inset
+
+) del momento angolare di un corpo rigido possiede tre assi particolari
+ detti assi principali d'inerzia (
+\emph on
+a,b,c
+\emph default
+).
+ Per i quali se il corpo rigido viene posto in rotazione intorno ad uno
+ di tali assi il momento angolare è parallelo a 
+\begin_inset Formula $\overrightarrow{\omega}$
+\end_inset
+
+, cioè 
+\begin_inset Formula $\overrightarrow{L_{(0)a}}\,=\, I_{a}\cdot\overrightarrow{\omega}$
+\end_inset
+
+ , 
+\begin_inset Formula $\overrightarrow{L_{(0)b}}\,=\, I_{b}\cdot\overrightarrow{\omega}$
+\end_inset
+
+, 
+\begin_inset Formula $\overrightarrow{L_{(0)b}}\,=\, I_{b}\cdot\overrightarrow{\omega}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione:
+\emph default
+ Se sono presenti asi di simmetria rotazionale in un corpo rigido omogeneo
+ (
+\begin_inset Formula $p\left(\overrightarrow{r}\right)\:=\: p$
+\end_inset
+
+ costante ), allora tali assi sono assi principali d'inerzia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $I_{x}=\int\int\int_{c}\left(y^{2}+z^{2}\right)\cdot\rho\cdot dV\,\,=\,\,\rho\cdot\int\int\int_{c}\left(y^{2}+z^{2}\right)\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $I_{y}=\int\int\int_{c}\left(x^{2}+z^{2}\right)\cdot\rho\cdot dV\,\,=\,\,\rho\cdot\int\int\int_{c}\left(x^{2}+z^{2}\right)\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $I_{z}=\int\int\int_{c}\left(x^{2}+y^{2}\right)\cdot\rho\cdot dV\,\,=\,\,\rho\cdot\int\int\int_{c}\left(x^{2}+y^{2}\right)\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se poi il corpo rigido è sottile nella direzione 
+\emph on
+z
+\emph default
+ posso assumere 
+\emph on
+z
+\emph default
+ e 
+\emph on
+O
+\emph default
+ nelle formule 
+\begin_inset Formula $I_{x}$
+\end_inset
+
+e
+\begin_inset Formula $I_{y}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $I_{x}=\rho\cdot\int\int\int_{c}y^{2}\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $I_{y}\,=\,\rho\int\int\int_{c}x^{2}dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $I_{z}\,=\: I_{x}+I_{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Teorema di Steiner
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $I_{z}\,=\, I_{z'}+M\cdot a^{2}$
+\end_inset
+
+ (figura)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Dimostrazione:
+\emph default
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $d$
+\end_inset
+
+ = distanza del punto P del corpo rigido da 
+\emph on
+z
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $d'$
+\end_inset
+
+= distanza del punto P del corpo rigido da 
+\emph on
+z'
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $d^{2}\,=\, x'^{2}+(a+y')^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $I_{z}\,=\,\rho\cdot\int\int\int_{c}d^{2}\cdot dV\,=\,\int\int\int_{c}\rho\cdot d'\cdot dV\:+a^{2}\cdot\int\int\int_{c}\rho\cdot dV\,+\int\int\int_{c}\rho\cdot2\cdot a\cdot y'\cdot dV\,\,=\,\, I_{z'}+M\cdot a^{2}+2\cdot a\cdot M\cdot\int\int\int_{c}\frac{y'\cdot\rho\cdot V}{M}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{CM}\,=\,\overset{n}{\underset{i=1}{\sum}}\overrightarrow{r_{i}}\cdot\frac{m_{i}}{M}$
+\end_inset
+
+ (forma discreta)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{CM}\:=\:\int\int\int_{c}\overrightarrow{r}\cdot\frac{\rho\left(\overrightarrow{r}\right)\cdot dV}{r}$
+\end_inset
+
+ (forma continua)
+\end_layout
+
+\begin_layout Paragraph
+Lezione del 12/05 - saltata
+\end_layout
+
+\begin_layout Part
+Statica dei fluidi
+\end_layout
+
+\begin_layout Paragraph
+Liquido perfetto
+\end_layout
+
+\begin_layout Standard
+Fluido che è:
+\end_layout
+
+\begin_layout Itemize
+Incompattabile e indilatabile (volume costante)
+\end_layout
+
+\begin_layout Itemize
+Privo di attriti interni (viscosità nulla)
+\end_layout
+
+\begin_layout Paragraph
+Pressione
+\end_layout
+
+\begin_layout Standard
+Dato lo sforzo 
+\begin_inset Formula $\phi\:=\:\underset{\triangle S\rightarrow0}{lim}\frac{\triangle\overrightarrow{F}}{\triangle S}\,=\,\frac{d\overrightarrow{F}}{dS}$
+\end_inset
+
+ si definisce pressione lo sforzo normale 
+\begin_inset Formula $p\,=\,\frac{d\overrightarrow{F}}{dS}\cdot\hat{U}_{N}$
+\end_inset
+
+misurata per il sistema internazionale in 
+\emph on
+Pascal
+\emph default
+ 
+\begin_inset Formula $[p]\,=\,[F]\cdot[L]^{-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Altre unità di misura sono il 
+\emph on
+bar, atm 
+\emph default
+e 
+\emph on
+torr.
+\end_layout
+
+\begin_layout Standard
+MANCA ROBA
+\end_layout
+
+\begin_layout Part
+Lezione del 21 Maggio 2010
+\end_layout
+
+\begin_layout Paragraph
+Temperatura empirica
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T\,=\,\frac{273.16\, K}{p_{tr}}p$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazioni:
+\end_layout
+
+\begin_layout Itemize
+Un buon termometro non deve alterare la temperatura del corpo di cui si
+ deriseera misurare la temperatura.
+ Perché ciò accada la massa del mezzo termometrico (gas nel termometro a
+ gas) deve essere molto piccola rispetto a quella del corpo di cui si desidera
+ misurare la temperatura.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p_{tr}$
+\end_inset
+
+nel termometro a gas dipende dal 
+\series bold
+tipo di gas
+\series default
+, dal suo 
+\series bold
+volume
+\series default
+ e anche dalla 
+\series bold
+massa
+\emph on
+ 
+\series default
+\emph default
+del termometro.
+\end_layout
+
+\begin_layout Itemize
+Termometri a gas diversi misurano anche temperature un po' diverse.
+ 
+\emph on
+(figura 1)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Per 
+\begin_inset Formula $p_{tr}\rightarrow0$
+\end_inset
+
+ (pur di utilizzare un gas molto rarefatto) ho che la temperatura 
+\begin_inset Formula $T$
+\end_inset
+
+ 
+\series default
+misurata da un termometro a gas
+\series bold
+ non dipende nè dal tipo di gas nè da parametri costruttivi 
+\series default
+(volume o massa di gas utilizzato).
+
+\series bold
+ 
+\series default
+Questo consente di definire una temperatura cosiddetta 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+assoluta
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, indipendente dal sistema termometrico utilizzato per misurarla.
+ Essa è definita come 
+\begin_inset Formula $\underset{p_{tr}\rightarrow0}{lim}\frac{273.16\, K}{p_{tr}}p$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Scale termometriche
+\end_layout
+
+\begin_layout Subparagraph
+Scala Celsius
+\end_layout
+
+\begin_layout Standard
+Utlizza due punti fissi: la temperatura 
+\begin_inset Formula $t_{1}$
+\end_inset
+
+dell'acqua allo 
+\series bold
+stato solido
+\series default
+ e la temperatura 
+\begin_inset Formula $t_{2}$
+\end_inset
+
+allo 
+\series bold
+stato gassoso 
+\series default
+(tutto considerato ad 
+\emph on
+1 atm
+\emph default
+ di pressione).
+ 
+\begin_inset Formula $t_{1}=0\,\text{°}C$
+\end_inset
+
+ e 
+\begin_inset Formula $t_{2}\,=\,100\,\text{°}C$
+\end_inset
+
+ , il grado celsius è definito come 
+\begin_inset Formula $\triangle t\,=\,\frac{t_{2}-t_{1}}{100}$
+\end_inset
+
+.
+ Per la conversione: 
+\begin_inset Formula $t(\text{°}C)\,=\, T(K)-273.15\, K$
+\end_inset
+
+ (15 e non 16)
+\end_layout
+
+\begin_layout Subparagraph
+Scala Farenheit
+\end_layout
+
+\begin_layout Standard
+Utilizza due punti fissi 
+\begin_inset Formula $t_{1}$
+\end_inset
+
+e 
+\begin_inset Formula $t_{2}$
+\end_inset
+
+ del corpo umano sano, pari a 
+\begin_inset Formula $t_{1}\,=\,96\text{°}F$
+\end_inset
+
+ e la temperatura 
+\begin_inset Formula $t_{2}\,=\,0\text{°}F$
+\end_inset
+
+ di solidificazione dell'acqua di mare ad 
+\emph on
+1 atm
+\emph default
+ di pressione.
+ La legge di conversione è data da 
+\begin_inset Formula $t\left(\text{°}F\right)\,=\,1.8\cdot t\left(\text{°}C\right)+32\text{°}F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Fase di un sistema termodinamico
+\end_layout
+
+\begin_layout Standard
+Si dice fase di un sistema termodinamico ogni porzione del sistema termodinamico
+ che possiede una composizione chimica e propietà fisiche uniformi.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione
+\emph default
+: in generale in un sistema termodinamico che grandezze termodinamiche necessari
+e per descrivere lo stato termodinamico del sistema saranno: pressione,
+ volume, temperatura, concentrazione dei componenti (
+\begin_inset Formula $p,\, V,\, T,\, C_{chimica},\, C_{fasi}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subparagraph
+Regola delle fasi (di Gibbs)
+\end_layout
+
+\begin_layout Standard
+In un sistema termodinamico con 
+\emph on
+C
+\emph default
+ costituenti chimici e 
+\emph on
+F
+\emph default
+ fasi, i gradi di libertà (numero delle grandezze termodinamiche indipendenti)
+ è 
+\begin_inset Formula $N=C+2-F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Se ad esempio ho un sistema monocompoente, monofasico (
+\begin_inset Formula $C=1,\: F=1$
+\end_inset
+
+) dalla regola delle fasi ottengo che 
+\begin_inset Formula $N\,=\,2$
+\end_inset
+
+.
+ Avrò quindi una equazione di stato che lega le grandezze termodinamiche
+ 
+\begin_inset Formula $p,V,T$
+\end_inset
+
+ con una funzione del tipo 
+\begin_inset Formula $F\left(p,V,T\right)\,=\,0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Equazione di stato di un gas ideale
+\end_layout
+
+\begin_layout Standard
+Come tutte le equazioni di stato è empirica, sperimentale.
+\end_layout
+
+\begin_layout Subparagraph
+Prima legge di Gay-Lussac
+\end_layout
+
+\begin_layout Standard
+A volume costante la pressione di un gas è proporzionale alla sua temperatura
+ (in Kelvin).
+ 
+\begin_inset Formula $V=costante\,\Rightarrow\, p\,=k\cdot T$
+\end_inset
+
+ con 
+\emph on
+K
+\emph default
+ che dipende dal volume del gas e dal suo numero di 
+\emph on
+moli.
+ 
+\emph default
+Il numero di moli 
+\begin_inset Formula $n\,=\,=\frac{N}{N_{A}}$
+\end_inset
+
+ con 
+\emph on
+N
+\emph default
+ numero di particelle e 
+\begin_inset Formula $N_{A}$
+\end_inset
+
+numero di Avogadro (
+\begin_inset Formula $N_{A}=6.022\cdot10^{23}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subparagraph
+Seconda legge di Gay-Lussac
+\end_layout
+
+\begin_layout Standard
+A pressione costante, il volume 
+\emph on
+molare
+\emph default
+ (volume di una mole) di un gas è proporzionale alla temperatura (misurata
+ in 
+\emph on
+Kelvin
+\emph default
+).
+ 
+\begin_inset Formula $p=costante\:\Rightarrow\: v=\left(\frac{V}{n}\right)\,=\, k'\cdot T$
+\end_inset
+
+ con 
+\emph on
+K'
+\emph default
+ che dipende dall pressione.
+\end_layout
+
+\begin_layout Subparagraph
+Legge di Boyle
+\end_layout
+
+\begin_layout Standard
+Presa una mole di gas, il prodotto pressione-volume dipende solo dalla temperatu
+ra 
+\begin_inset Formula $p\cdot v\,=\, f\left(T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione: 
+\emph default
+Pur di prendere gas a temperatura non troppo bassa e pressione non troppo
+ elevata; 
+\begin_inset Formula $k$
+\end_inset
+
+ e 
+\begin_inset Formula $k'$
+\end_inset
+
+ non dipendono dal tipo di gas.
+\end_layout
+
+\begin_layout Subparagraph
+Gas ideale
+\end_layout
+
+\begin_layout Standard
+Si definisce quindi gas ideale o gas perfetto un gas che obbedisce sempre
+ alle leggi di 
+\emph on
+Gay-Lussac
+\emph default
+ e 
+\emph on
+Boyle
+\emph default
+.
+\end_layout
+
+\begin_layout Subparagraph
+Equazione di stato
+\end_layout
+
+\begin_layout Standard
+Dalla prima legge di 
+\emph on
+Gay-Lussac
+\emph default
+ (vedi termometro a gas) possiamo scrivere che 
+\begin_inset Formula $T\,=\,\frac{p^{*}}{p_{tr}}\cdot273.15\, K$
+\end_inset
+
+ dove 
+\begin_inset Formula $p^{*}\,=\, k\cdot T$
+\end_inset
+
+ e 
+\begin_inset Formula $p_{tr}\,=\, k\cdot273.16\, K$
+\end_inset
+
+.
+ Sia 
+\begin_inset Formula $v^{*}$
+\end_inset
+
+il volume molare del gas alla pressione 
+\begin_inset Formula $p^{*}$
+\end_inset
+
+ e temperatura 
+\begin_inset Formula $T$
+\end_inset
+
+.
+ Si ha in questo caso che 
+\begin_inset Formula $T\,=\,\frac{p^{*}\cdot v^{*}}{p_{tr}\cdot v^{*}}\cdot273.16\, K$
+\end_inset
+
+.
+ Ma per ipotesi dalla prima legge di 
+\emph on
+Gay-Lussac 
+\emph default
+deve essere 
+\begin_inset Formula $v^{*}=v_{tr}$
+\end_inset
+
+, in generale quindi scrivo: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p^{*}\cdot v^{*}$
+\end_inset
+
+come 
+\begin_inset Formula $p\cdot v$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{tr}\cdot v^{*}$
+\end_inset
+
+come 
+\begin_inset Formula $\left(p\cdot v\right)_{tr}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ricordo poi che 
+\begin_inset Formula $p\cdot v\,=\, f\left(T\right)$
+\end_inset
+
+ in base alla legge di 
+\emph on
+Boyle, 
+\emph default
+ottengo quindi: 
+\begin_inset Formula $T\,=\frac{\left(p\cdot v\right)_{T}}{\left(p\cdot v\right)_{tr}}\cdot273.16\, K$
+\end_inset
+
+, e quindi 
+\begin_inset Formula $p\cdot v\,=\:\frac{\left(p\cdot v\right)_{tr}}{273.16\, K}\cdot T$
+\end_inset
+
+.
+ Ricordando ancora 
+\emph on
+Boyle
+\emph default
+ 
+\begin_inset Formula $\left(p\cdot v\right)_{tr}=costante$
+\end_inset
+
+ e quindi 
+\begin_inset Formula $\frac{\left(p\cdot v\right)_{tr}}{273.16\, K}\,=costante\,=\, R\,=\,8.31\,\,\frac{J}{(mol\cdot K)}$
+\end_inset
+
+ (costante universale dei gas ideali).
+ Se ora considero 
+\emph on
+n
+\emph default
+ moli di gas con 
+\begin_inset Formula $n\,=\,\cfrac{V}{v}$
+\end_inset
+
+ quindi 
+\begin_inset Formula $V\,=\, n\cdot v$
+\end_inset
+
+ trovo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p\cdot V\,=\, n\cdot R\cdot T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+che è 
+\series bold
+l'equazione di stato del gas prefetto
+\series default
+.
+\end_layout
+
+\begin_layout Paragraph*
+Diagrammi di stato
+\end_layout
+
+\begin_layout Standard
+Sono dei grafici che rappresentano l'insieme degli stati di equilibrio assunti
+ dal sistema termodinamico in esame nel corso di un dato processo di trasformazi
+one.
+ Per i gas ideali sono diagrammi del piano: bastano infatti 
+\series bold
+due
+\series default
+ variabili termodinamiche per deterinare univocamente lo stato di un gas
+ ideale.
+\end_layout
+
+\begin_layout Standard
+Il piano 
+\begin_inset Formula $(p,v)$
+\end_inset
+
+ è privilegiato in quanto il prodotto 
+\begin_inset Formula $p\cdot\triangle v$
+\end_inset
+
+ ha le dimensioni di un lavoro.
+ Tale piano è detto 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+piano di Clapeyron
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ (figura 2).
+ Sappiamo che 
+\begin_inset Formula $p\cdot v$
+\end_inset
+
+ è costante e anche che 
+\begin_inset Formula $p\cdot V\,=\, n\cdot R\cdot T$
+\end_inset
+
+, quindi dire che 
+\begin_inset Formula $p\cdot V$
+\end_inset
+
+ è costante significa dire che 
+\begin_inset Formula $T$
+\end_inset
+
+ è costante, dunque le iperboli nel piano di 
+\emph on
+Clapeyron
+\emph default
+ rappresentano stati di equilibrio a temperatura costante.
+ 
+\end_layout
+
+\begin_layout Part
+Lezione del 25 Maggio 2010
+\end_layout
+
+\begin_layout Paragraph
+Trasformazioni quasi statiche
+\end_layout
+
+\begin_layout Standard
+Sono trasformazioni ideali costituite da una successione (infinita) di stati
+ di equilibrio (infinitamente vicini l'uno all'altro)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazioni: 
+\end_layout
+
+\begin_layout Itemize
+Una trasformazione quasi statica è una trasformazione infinitamente lenta.
+\end_layout
+
+\begin_layout Itemize
+Le trasformazioni quasi statiche possono essere rappresentate in forma matematic
+a attraverso una legge matematica di trasformazione che lega tra loro le
+ grandezze termodinamiche del sistema.
+\end_layout
+
+\begin_layout Itemize
+Nel piano di stato scelto per la rappresentazione del sistema termodinamico
+ con trasformazione quasi statica assume la forma di una coruva continua
+ orientata.
+ (figura 3)
+\end_layout
+
+\begin_layout Itemize
+Trasformazioni non quasi statiche sono trasformazioni che non posso rappresentar
+e attraverso una relazione matematica tra le variabili (o grandezze) termodinami
+che del sistema.
+ Le rappresenterò nel piano di stato come curve tratteggiate.
+\end_layout
+
+\begin_layout Subparagraph
+Trasformazione quasi statica reversibile
+\end_layout
+
+\begin_layout Standard
+È una trasformazione che si compie in assenza di attriti (fenomeni che dissipano
+ l'energia meccanica)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione:
+\emph default
+ In una trasformazione reversibile, è possibile in ogni punto della trasformazio
+ne, invertire la trasformazione stessa cambiando di una quantità infinitesima
+ le cause che sono responsabili della trasformazione stessa.
+\end_layout
+
+\begin_layout Subparagraph
+Condizioni necessarie alla reversibilità
+\end_layout
+
+\begin_layout Enumerate
+Le cause della trasformazione sono infinitesime
+\end_layout
+
+\begin_layout Enumerate
+La trasformazione è infinitamente lenta
+\end_layout
+
+\begin_layout Enumerate
+Il verso della trasformazione può essere invertito cambiando di un infinitesimo
+ le cause della trasformazione
+\end_layout
+
+\begin_layout Subparagraph
+Esempio di trasformazione reversibile
+\end_layout
+
+\begin_layout Standard
+(figura 4)
+\end_layout
+
+\begin_layout Standard
+Inizialmente il sistema termodinamico è in equilibrio meccanico (quindi
+ 
+\begin_inset Formula $p\,=\, p_{e}$
+\end_inset
+
+) ed è in equilibrio termico (
+\begin_inset Formula $T\,=\, T_{0}$
+\end_inset
+
+).
+ Essendo un gas vale ovviamente l'equazione di stato del gas (perfetto):
+ 
+\begin_inset Formula $p\cdot V\,=\, n\cdot R\cdot T$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+Dopo la trasformazione avrò una temperatura 
+\begin_inset Formula $T\,=\, T_{0}$
+\end_inset
+
+, però 
+\begin_inset Formula $p_{F}\,=\,?$
+\end_inset
+
+ e 
+\begin_inset Formula $V_{F}\,=\,?$
+\end_inset
+
+.
+ Ipotizziamo che 
+\begin_inset Formula $T\,=\, T_{0}$
+\end_inset
+
+ costante; abbiamo quindi una trasformazione isoterma.
+ 
+\end_layout
+
+\begin_layout Standard
+Se aggiungiamo sopra la parete superiore 
+\begin_inset Formula $r$
+\end_inset
+
+ pesi di massa infinitesima, uno alla volta aspettando che il sistema raggiunga
+ l'equilibrio, avremo che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{F}\,=\, p_{e}+\frac{r\cdot\left(m\cdot g\right)}{S}\:\:>p_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{F}\,=\,\frac{n\cdot R\cdot T_{0}}{p_{F}}\,<\, V_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e l'equazione di stato diventa 
+\begin_inset Formula $p_{i}\cdot V_{i}\:=\: n\cdot R\cdot T_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Esempio di trasformazione reverisibile con solo scambio di calore
+\end_layout
+
+\begin_layout Standard
+(figura 5)
+\end_layout
+
+\begin_layout Standard
+Cambiando in modo progressivo la temperatura del termostato da 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ aggiungendo man mano 
+\begin_inset Formula $dT$
+\end_inset
+
+ fino ad arrivare a 
+\begin_inset Formula $T_{finale}$
+\end_inset
+
+.
+ In questo caso la trasformazione è a volume 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ costante.
+\end_layout
+
+\begin_layout Paragraph
+Lavoro di un sistema termodinamico
+\end_layout
+
+\begin_layout Subparagraph
+Caso dei sistemi idrostatici
+\end_layout
+
+\begin_layout Standard
+Si tratta di sistemi a massa costante e pressione 
+\begin_inset Quotes eld
+\end_inset
+
+uniforme
+\begin_inset Quotes erd
+\end_inset
+
+ in condizioni di equilibrio.
+\end_layout
+
+\begin_layout Standard
+Sistemi fluidi con estensione verticale limitata o con bassa densità sono
+ dei buoni sistemi idrostatici.
+\end_layout
+
+\begin_layout Standard
+Consideriamo un sistema costituito da un gas in un cilindro che reca un
+ pistone mobile su cui insiste la pressione atmosterica.
+ Supponiamo assenti gli attriti e immaginiamo che per qualche causa non
+ meglio specificata il pistone di sposti di un tratto 
+\begin_inset Formula $dx$
+\end_inset
+
+ (positivo se corrisponde ad un aumento del volume ella camera cilindrica).
+\end_layout
+
+\begin_layout Standard
+Calcoliamo il lavoro fatto dall'ambiente esterno sul sistema.
+ (figura 6)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $dL_{e}\,=\,-p_{e}\cdot S\cdot\hat{U}_{x}\:\cdot\: dx\cdot\hat{U}_{x}\,=\,-p_{e}\cdot S\cdot dx\,=\,-p_{e}\cdot dV$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+dove abbiamo che 
+\begin_inset Formula $-p_{e}\cdot S\cdot\hat{U}_{x}$
+\end_inset
+
+ corrisponde a 
+\begin_inset Formula $\overrightarrow{F^{(E)}}$
+\end_inset
+
+, mentre 
+\begin_inset Formula $dx\cdot\hat{U}_{x}$
+\end_inset
+
+ corrisponde a 
+\begin_inset Formula $d\overrightarrow{r}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione: 
+\emph default
+Il lavoro vatto dall'Universo (
+\begin_inset Formula $STD\,\cup\, A$
+\end_inset
+
+) sarà pari a 
+\begin_inset Formula $0$
+\end_inset
+
+ perchè valendo il principio di conservazione dell'energia dell'Universo
+ e essendo 
+\begin_inset Formula $L^{U}\,=\,\triangle E^{U}\,=\,0$
+\end_inset
+
+ avremo che 
+\begin_inset Formula $dL_{e}+dL\,=\, dL_{U}\,=\,0\:\:\:\Rightarrow\:\:\:\delta L\,=\,\delta L_{e}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Concludendo, in qualunque trasferiment di un sistema termodinamico il lavoro
+ compiuto dal sistema è pari al lavoro fatto dall'ambiente esterno cambiato
+ di segno.
+\end_layout
+
+\begin_layout Standard
+Per una trasformazione arbitraria (reversibile o meno), finita di un sistema
+ termodinamico, potrò calcolare il lavoro compiuto dal sistema come:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{A\rightarrow B}\,=\,\int_{A}^{B}\delta L_{e}\,=\,\int_{A}^{B}p_{e}\left(V\right)\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ciò non significa però che 
+\begin_inset Formula $p\,=\, p_{e}$
+\end_inset
+
+!
+\end_layout
+
+\begin_layout Standard
+Se poi la trasformazione è reversibile allora ovviamente sarà 
+\begin_inset Formula $p\,=\, p_{e}$
+\end_inset
+
+ durante tutta la trasformazione e potrò determinare il lavoro compiuto
+ dal sistema come 
+\begin_inset Formula $L\,=\,\int_{A}^{B}p\left(V\right)\cdot dV$
+\end_inset
+
+ e 
+\begin_inset Formula $p\left(V\right)$
+\end_inset
+
+ si potrà esprimere attraverso l'equazione di stato.
+\end_layout
+
+\begin_layout Paragraph
+Interpretazione geometrica del lavoro
+\end_layout
+
+\begin_layout Standard
+Nel piano di 
+\emph on
+Clapeyron
+\emph default
+ il prodotto 
+\begin_inset Formula $p\cdot d\cdot V$
+\end_inset
+
+ rappresenta l'area sottesa dell'elemento infinitesimo di trasformazione.
+ Quindi: 
+\begin_inset Formula $L\,=\,\int_{A}^{B}p\left(V\right)\cdot dV$
+\end_inset
+
+ è l'area sottesa dalla trasformazione.
+ (figura 7)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L\,\,=\,\,\oint\, p\left(V\right)\cdot dV$
+\end_inset
+
+ (area tratteggiata)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{A\rightarrow A'}$
+\end_inset
+
+ (area tratteggiata e area punteggiata)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{A'\rightarrow B=A}$
+\end_inset
+
+( - area punteggiata )
+\end_layout
+
+\begin_layout Subparagraph
+Esempio
+\end_layout
+
+\begin_layout Standard
+Lavoro del gas ideale in alcune trasformazioni notevoli reversibili.
+ Poichè sono trasformazioni reversibili varrà sempre l'equazione di stato
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p\cdot V\,=\, n\cdot R\cdot T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Casi notevoli di trasformazioni reversibili sono: 
+\emph on
+(figura 8)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p\,=$
+\end_inset
+
+costante (trasformazione 
+\emph on
+isobara
+\emph default
+) segmento orizzontale nel piano 
+\begin_inset Formula $pV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $V\,=$
+\end_inset
+
+costante (trasformazione 
+\emph on
+isocora
+\emph default
+) segmento verticale nel piano 
+\begin_inset Formula $pV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T\,=$
+\end_inset
+
+costante (trasformazione 
+\emph on
+isoterma
+\emph default
+) 
+\begin_inset Formula $p\cdot V\,=$
+\end_inset
+
+costante 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+iperbole nel piano 
+\begin_inset Formula $pV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Possiamo calcolare il lavoro in ciascuna trasformazione:
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Isobara
+\emph default
+ a 
+\begin_inset Formula $p=$
+\end_inset
+
+costante (
+\begin_inset Formula $p_{0}$
+\end_inset
+
+), 
+\begin_inset Formula $L_{A\rightarrow B}\,=\,\int_{A}^{B}p\left(V\right)\cdot dV\,=\,\int_{A}^{B}p_{0}\cdot dV\:\:=\: p_{0}\cdot\left(V_{B}-V_{A}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Isocora
+\emph default
+ a 
+\begin_inset Formula $v=$
+\end_inset
+
+costante (
+\begin_inset Formula $V_{0}$
+\end_inset
+
+), 
+\begin_inset Formula $L_{C\rightarrow D}\:=\:\int_{C}^{D}p\left(V\right)\cdot dV\:=\,0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Isoterma a 
+\begin_inset Formula $T=$
+\end_inset
+
+costante (
+\begin_inset Formula $T_{0}$
+\end_inset
+
+), 
+\begin_inset Formula $L_{E\rightarrow F}\,=\,\int_{E}^{F}p\left(V\right)\cdot dV\,=\,\int_{E}^{F}\frac{n\cdot R\cdot T_{0}}{V}\cdot dV\:=\: n\cdot R\cdot T\cdot\int_{V_{E}}^{V_{F}}\frac{1}{V}\cdot dV\:\:=\: n\cdot R\cdot T_{0}\cdot ln\left(\frac{V_{F}}{V_{E}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Il calore
+\end_layout
+
+\begin_layout Standard
+Definiamo calore quell'ente fisico che due sistemi termodinamici posti in
+ contatto tra loro (attraverso una parete conduttrice) si scambiano per
+ effetto di una diversa temperatura.
+\end_layout
+
+\begin_layout Subparagraph
+Esperimento di Joule
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 9)
+\end_layout
+
+\begin_layout Standard
+Dalla lettura di 
+\begin_inset Formula $\triangle l$
+\end_inset
+
+, noto il calore latente di Fusion e del ghiaccio posso determinale la quantità
+ 
+\begin_inset Formula $Q$
+\end_inset
+
+ di calore assorbita dal calorimetro di 
+\emph on
+Bunsen
+\emph default
+ , cioè a meno del segno la quantità di calore ceduta dal sistema termodinamico
+ in esame (
+\begin_inset Formula $H_{2}O$
+\end_inset
+
+ liquida all'interno del beker ove ruotano le pale del mulinello).
+\end_layout
+
+\begin_layout Standard
+Noto il tratto di caduta delle due masse, 
+\begin_inset Formula $h$
+\end_inset
+
+ e la velocità diregime di tale caduta, 
+\begin_inset Formula $V$
+\end_inset
+
+ in base al teorema delle forze vive si determina il lavoro fatto dall'ambiente
+ esterno al sistema terminodimanico
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\triangle E_{e}\,=\,2\cdot\frac{1}{2}\cdot M\cdot v^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{FP}\,=\:2\cdot M\cdot g\cdot h$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{e}\,=\,2\cdot M\cdot g\cdot h\,-\, M\cdot v^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L\,=\,-L_{e}\,=M\cdot v^{2}-2\cdot M\cdot g\cdot h$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Principio di equivalenza
+\end_layout
+
+\begin_layout Standard
+In una trasformazione ciclica il rapporto tra 
+\begin_inset Formula $L$
+\end_inset
+
+ compiuto dal sistema e la quantià di calore 
+\begin_inset Formula $Q$
+\end_inset
+
+ scambiata dal sistema è una costante universale (indipendente dal tipo
+ di sistema termodinamico e dalla trasformazone compiuta).
+ Tale costante vale 
+\begin_inset Formula $4,186\:\frac{J}{Cal}=J$
+\end_inset
+
+ ove 
+\emph on
+Cal
+\emph default
+ è la caloria.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione: 
+\emph default
+convenzione dei segni sul lavoro e sul calore:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L>0$
+\end_inset
+
+ se è compiuto dal sistema
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L<0$
+\end_inset
+
+ se è subito dal sistema
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Q>0$
+\end_inset
+
+ se è assorbita dal sistema
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Q<0$
+\end_inset
+
+ se è caduta dal sistema
+\end_layout
+
+\begin_layout Standard
+Convenzione nata nel costesto applicativo delle macchine termiche.
+\end_layout
+
+\begin_layout Subparagraph
+Definizione di capacità termica
+\end_layout
+
+\begin_layout Standard
+Si definisce capacità termica media 
+\begin_inset Formula $C_{m}$
+\end_inset
+
+di un sistema il rapporto tra la quantità di calore assorbita e la conseguente
+ variazione di temperatura del sistema stesso.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{m}\,=\,\frac{Q}{\triangle T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In senso stretto:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C\,=\,\underset{\triangle\rightarrow0}{lim}\frac{Q}{\triangle T}\,=\frac{\delta Q}{dT}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione:
+\emph default
+ 
+\begin_inset Formula $C$
+\end_inset
+
+ è in generale funzione di 
+\begin_inset Formula $T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Calore specifico
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c\,=\,\frac{C}{m}$
+\end_inset
+
+, capacità termica per unità di massa
+\end_layout
+
+\begin_layout Paragraph
+Caloria
+\end_layout
+
+\begin_layout Standard
+Quantità di calore assorbita da 
+\begin_inset Formula $1$
+\end_inset
+
+grammo di acqua distillata per variare la propria temperatura da 
+\begin_inset Formula $14,5°C$
+\end_inset
+
+ a 
+\begin_inset Formula $15,5\text{°}C$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione:
+\emph default
+ 
+\begin_inset Formula $C_{H_{2}O}\,=\,1\,\frac{Cal}{g\cdot\text{°}C}$
+\end_inset
+
+ nell'itorno di 
+\begin_inset Formula $15\text{°}C$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Calore specifico molare
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{mol}\,=\,\frac{C}{n}\,=\,\frac{1}{n}\cdot\frac{\delta Q}{dT}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Capacità termica del pole di sostanza.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione:
+\emph default
+ 
+\begin_inset Formula $C$
+\end_inset
+
+ (e quindi 
+\begin_inset Formula $C$
+\end_inset
+
+ e 
+\begin_inset Formula $C_{mol}$
+\end_inset
+
+) dipendono in generale dalla trasformazione considerata.
+\end_layout
+
+\begin_layout Part
+Lezione del 27 Maggio 2010
+\end_layout
+
+\begin_layout Paragraph
+Primo principio della termodinamica
+\end_layout
+
+\begin_layout Standard
+Preso un sistema chiuso (infiniti scambi di materia con ambiente)
+\end_layout
+
+\begin_layout Itemize
+lavoro meccanico
+\end_layout
+
+\begin_layout Itemize
+calore
+\end_layout
+
+\begin_layout Subparagraph
+Evidenza sperimentale fondamentale
+\end_layout
+
+\begin_layout Standard
+La somma di tutte le forme di energia scambiate da un sistema termodinamico
+ chiuso in una qualunque trasformazione dipende solo dagli stati termodinamici
+ iniziale A e finale B della trasformazione.
+\end_layout
+
+\begin_layout Subparagraph
+Energia interna
+\end_layout
+
+\begin_layout Standard
+È definito come l'indice di stato fisico di un sistema termodinamico chiuso
+ la funzione 
+\begin_inset Formula $U$
+\end_inset
+
+ tale che 
+\begin_inset Formula $\triangle U\,=\, U_{B}-U_{A}\,=\, Q-L$
+\end_inset
+
+ , essendo 
+\begin_inset Formula $A\rightarrow B$
+\end_inset
+
+ la generica trasformazione termodinamica compiuta dal sistema termodinamico
+ quando scambia con l'ambiente una energia 
+\begin_inset Formula $Q-L$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Q>0$
+\end_inset
+
+ se assorbito dal sistema termodinamico; 
+\begin_inset Formula $Q<0$
+\end_inset
+
+ se fatto dal sistema termodinamico.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione:
+\emph default
+ U dipende solo dallo stato termodinamico in cui si trova il sistema e non
+ da come vi è giunto (quale trasformazione ha compiuto in tale stato), ed
+ è definita a meno di una costante arbitraria.
+\end_layout
+
+\begin_layout Subparagraph
+Enunciato del primo principio della termodinamica
+\end_layout
+
+\begin_layout Standard
+In una qualsiasi trasformazione termodinamica di un sistema chiuso, vale
+ la relazione che 
+\begin_inset Formula $Q-L\,=\,\triangle U$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+(Sembra essere ciò che è già stato detto per l'energia interna, ma ora è
+ espresso in modo generalizzato!)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazioni:
+\emph default
+ 
+\end_layout
+
+\begin_layout Itemize
+Il primo principio della termodinamica non è altro che una riformulazione
+ (particolare) del più generale principio di conservazione dell'energia
+ dell'universo (sistema termodinamico isolato)
+\end_layout
+
+\begin_layout Itemize
+Trasformazione ciclica: 
+\begin_inset Formula $B\equiv A\:\Rightarrow\:\triangle U=U_{B}-U_{A}=0$
+\end_inset
+
+ (essendo U funazione solo dello stato), segue che il primo principio diviene
+ 
+\begin_inset Formula $Q=L$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Il moto perpetuo di prima specie non è possibile.
+ Infatti se si vuole che una macchina di qualunque tipo compia lavoro, cioè
+ 
+\begin_inset Formula $L\neq0$
+\end_inset
+
+ , si vuole che possa farlo in eterno e senza assorbire energia, cioè 
+\begin_inset Formula $Q=0$
+\end_inset
+
+.
+ Allora basta che esista un ciclo termodinamico che soddisfi 
+\begin_inset Formula $Q=0$
+\end_inset
+
+,
+\begin_inset Formula $\triangle U=0$
+\end_inset
+
+ e 
+\begin_inset Formula $L\neq0$
+\end_inset
+
+, che però è 
+\series bold
+impossibile
+\series default
+ (in base al primo principio infatti se 
+\begin_inset Formula $Q=0$
+\end_inset
+
+ anche 
+\begin_inset Formula $L=0$
+\end_inset
+
+ per la relazione 
+\begin_inset Formula $Q-L\,=\,\triangle U$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Paragraph
+Lavoro adiabatico
+\end_layout
+
+\begin_layout Standard
+Consideriamo un sistema termodinamico chiuso che compie trasformazione adiabatic
+a (
+\begin_inset Formula $Q\,=\,0$
+\end_inset
+
+).
+ Diciamo 
+\begin_inset Quotes eld
+\end_inset
+
+lavoro adiabatico
+\begin_inset Quotes erd
+\end_inset
+
+ il lavoro compiuto in una trasformazione adiabatica.
+ Sperimentalmente si osserva che il lavoro adiabatico non dipende dalla
+ trasformazione ma solo dagli stati iniziale e finale.
+ Quindi si può introdurre un indice di stato fisico 
+\begin_inset Formula $U$
+\end_inset
+
+ (funzione solo dello stato termodinamico), tale che 
+\begin_inset Formula $L_{ad}\,=\,-\triangle U_{AB}\,=\, U_{A}-U_{B}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Calore
+\end_layout
+
+\begin_layout Standard
+È la quantità 
+\begin_inset Formula $Q$
+\end_inset
+
+ di calore ceduta dall'ambiente ad un sistema termodinamico chiuso in una
+ data trasformazione 
+\begin_inset Formula $A\rightarrow B$
+\end_inset
+
+ nella quale il sistema termodinamico compia il lavoro 
+\begin_inset Formula $L$
+\end_inset
+
+.
+ 
+\begin_inset Formula $Q\,=\, L-L_{ad}$
+\end_inset
+
+ ove 
+\begin_inset Formula $L_{ad}$
+\end_inset
+
+ è il lavoro compiuto dal sistema termodinamico in una trasformazione adiabatica
+ tra i medesimi stati termodinamici, A e B.
+\end_layout
+
+\begin_layout Paragraph
+Primo principio termodinamico in forma differenziale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta Q-\delta L\,=\, dU$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Nota: 
+\emph default
+In un sistema termodinamico monofasico e monocomponente (ex: gas perfetti).
+ Tre variabili termodinamiche: 
+\begin_inset Formula $p,V,T$
+\end_inset
+
+ e una equazione di stato.
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+2 variabili indipendenti.
+ 
+\begin_inset Formula $U\left(p,V\right)$
+\end_inset
+
+, 
+\begin_inset Formula $U\left(V,T\right)$
+\end_inset
+
+, 
+\begin_inset Formula $U\left(p,T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Interpretazione microscopica del I principio della termodinamica
+\end_layout
+
+\begin_layout Standard
+Per un sistema meccanico di 
+\begin_inset Formula $N$
+\end_inset
+
+ punti materiali tra loro interagenti è definita una energia propria 
+\begin_inset Formula $U\,=\, E_{c}+E_{p}^{(int)}$
+\end_inset
+
+ con la proprietà che 
+\begin_inset Formula $\triangle U\,=L_{esterno}^{(meccanico)}$
+\end_inset
+
+ (
+\emph on
+convenzione scambiata
+\emph default
+).
+ In forma differenziale: 
+\begin_inset Formula $dU\,=\,\delta L_{esterno}^{(meccanico)}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Si può interpretare 
+\begin_inset Formula $U$
+\end_inset
+
+ come l'energia interna definita in termodinamica.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione: 
+\emph default
+
+\begin_inset Formula $L_{esterno}^{(meccanico)}$
+\end_inset
+
+ non coincide con il 
+\begin_inset Formula $L_{esterno}$
+\end_inset
+
+ (termodinamico) dell'ambiente esterno, infatti in un sistema complesso
+ di 
+\begin_inset Formula $N$
+\end_inset
+
+ punti materiali, il moto di ciascun punto ha due componenti di natura diversa:
+ 
+\emph on
+moto coerente
+\emph default
+ e 
+\emph on
+moto incoerente
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Esempio: 
+\emph default
+Supponiamo di avere un gas all'interno di un contenitore cilindrico coperto
+ da un coperchio isolante.
+ Quando dall'esterno qualuno preme il coperchio di uno spostamento 
+\begin_inset Formula $dl$
+\end_inset
+
+ comprimendo il gas sappiamo che il lavoro 
+\begin_inset Formula $dL_{e}\,=\, p_{e}\cdot S\cdot dl$
+\end_inset
+
+ (dove S è la superfice del coperchio e 
+\begin_inset Formula $p_{e}$
+\end_inset
+
+ è la pressione esercitata dall'esterno).
+\end_layout
+
+\begin_layout Standard
+In generale:
+\begin_inset Formula $\delta L_{e}\,=\,\overset{N}{\underset{i=1}{\sum}F_{i}^{(E)}}\cdot d\overrightarrow{r_{i,co}}$
+\end_inset
+
+ , 
+\begin_inset Formula $dU\,=\,\delta L_{e}^{(mecc.)}\,=\,\delta L_{e}+\overset{N}{\underset{i=1}{\sum\overrightarrow{F_{i}^{(E)}}\cdot d\overrightarrow{r_{i,inc}}}}$
+\end_inset
+
+, So che 
+\begin_inset Formula $L_{e}\,=\,-L$
+\end_inset
+
+, 
+\begin_inset Formula $dU\,=\,\overset{N}{\underset{i=1}{\sum}}\overrightarrow{F_{i}^{(E)}}\cdot d\overrightarrow{r_{i,inc}}-\delta L\,\Rightarrow\:$
+\end_inset
+
+Primo principio termodinamica.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Conclusione
+\end_layout
+
+\begin_layout Enumerate
+Il calore è associato al moto incoerente microscopico e precisamente 
+\begin_inset Formula $\delta Q\,=\,\overset{N}{\underset{i=1}{\sum}}\overrightarrow{F_{i}^{(E)}}\cdot d\overrightarrow{r_{i,inc}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+L'energia interna (termodinamica) equivale alla energia propria meccanica.
+\end_layout
+
+\begin_layout Enumerate
+Il lavoro termodinamico è associato al moto coerente microscopico e precisando:
+ 
+\begin_inset Formula $\delta L\,=\,\overset{N}{\underset{i=1}{\sum}}\overrightarrow{F_{i}^{(E)}}\cdot d\overrightarrow{r_{i,co}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Calore molare a volume costante
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{v}\,=\,\frac{1}{n}\cdot\left(\frac{\delta Q}{\delta T}\right)_{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In base al primo principio della termodinamica se 
+\begin_inset Formula $V\,=\,$
+\end_inset
+
+costante (
+\begin_inset Formula $p\cdot d\cdot V\,=\delta L\,=\,0$
+\end_inset
+
+) ho che 
+\begin_inset Formula $dU\,=\,=\delta Q$
+\end_inset
+
+ quindi 
+\begin_inset Formula $c_{v}=\frac{1}{n}\cdot\frac{dU}{dT}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Calore molare a pressione costante
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{p}\,=\,\frac{1}{n}\cdot\left(\frac{\delta Q}{\delta T}\right)_{p}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $dQ\,=\, dU+p\cdot dV$
+\end_inset
+
+ del primo principio della termodinamica, e segue che 
+\begin_inset Formula $dQ\,=\,\left(U+pV\right)\,=\, dU+p\cdot dV+V\cdot dp$
+\end_inset
+
+.
+ Sappiamo però che essendo la pressione costante il termine 
+\begin_inset Formula $V\cdot d\cdot p$
+\end_inset
+
+ è 
+\begin_inset Formula $0$
+\end_inset
+
+ .
+ Chiamiamo il termine 
+\begin_inset Formula $(U+p\cdot V)$
+\end_inset
+
+ 
+\emph on
+entalpia
+\emph default
+ (indicata con 
+\emph on
+H
+\emph default
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{p}\,=\,\frac{1}{n}\cdot\left(\frac{\delta H}{\delta T}\right)_{p}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Trasformazione generica
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $dU\,=\,\left(\frac{\delta U}{\delta T}\right)\cdot dT\:+\:\left(\frac{\delta U}{\delta V}\right)\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ricordando che per un sistema monofasico e monocomponente, 
+\begin_inset Formula $U$
+\end_inset
+
+ è funzione di due variabili di stato.
+ In base al primo principio della termodinamica 
+\begin_inset Formula $dU\,=\,\delta Q-p\cdot dV$
+\end_inset
+
+.
+ (Nell'ipotesi di sistema idrostatico, quinid con 
+\begin_inset Formula $\delta L\,=\, p\cdot dV$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\frac{\delta U}{\delta T}\right)\cdot dT\,+\,\left(\frac{\delta U}{\delta V}\right)\cdot dV\:=\:\delta Q-p\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta Q\,=\,\left(\frac{\delta U}{\delta T}\right)\cdot dT+\left[p+\left(\frac{\delta U}{\delta V}\right)\right]\cdot dV\:$
+\end_inset
+
+ da cui si ricava finalmente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta Q\,=\: n\cdot c_{v}\cdot dT+n\cdot\left[p+\frac{\delta U}{\delta V}\right]\cdot\frac{1}{n}\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
