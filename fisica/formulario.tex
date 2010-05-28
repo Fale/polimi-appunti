@@ -1,18 +1,53 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,10pt]{book}
 \usepackage[utf8x]{inputenc}
-
-%opening
-\title{}
-\author{}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\title{Formulario di Fisica}
+\author{Fabio Alessandro Locati}
 
 \begin{document}
 
-\maketitle
+\chapter{Cinematica}
+\section{Moto rettilineo}
+\subsection{Uniforme}
+\[s(t) = vt +s_0\]
+\subsection{Vario}
+Velocità istantanea: \[v(t)=\frac{ds}{dt}\]
+\[v(t)=v_0+at\]
+Accelerazione istantanea: \[a=\frac{v}{t}\]
+Spazio totale: \[s=s_0+v_0t+\frac{1}{2}at^2\]
+Tempo totale: \[\tau=\sqrt{\frac{2s}{a}}\]
+Velocità finale: \[v_f=\sqrt{2as}\]
 
-\begin{abstract}
+\section{Moto armonico}
+\subsection{Semplice}
+\[x(t)=A\sin{(\omega t+\varphi_0)}\]
+Periodo: \[T=\frac{2\pi}{\omega}\]
+Frequenza: \[f=\frac{1}{T}\]
+\subsection{Smorzato esponenzialmente}
+\[x(t)=Ae^{-at}\sin{(\omega t+\varphi_0)}\]
 
-\end{abstract}
+\section{Moto di caduta libera}
+\subsection{Lungo la verticale}
+Tempo totale: \[\tau=\sqrt{\frac{2h}{g}}\]
+Velocità finale: \[v_f=\sqrt{2gh}\]
+Tempo di salita: \[\tau=\frac{v_0}{g}\]
+Quota massima: \[h=\frac{v_0^2}{2g}\]
+\subsection{Parabolico}
+Quota istantanea: \[h(t)=h_0+v_0\sin{2\alpha}t-\frac{1}{2}gt^2\]
+Distanza istantanea: \[s(t) = s_0 + v_0\cos{\alpha}t\]
+Tempo totale: \[\tau=2v_0\frac{\sin\alpha}{g}\]
+Spazio totale (gittata): \[s(\tau)=\frac{v_0^2}{g}\sin{2\alpha}\]
 
-\section{}
-
+\section{Moto circolare}
+\subsection{Uniforme}
+Velocità angolare: \[\omega=\frac{v}{R}\]
+\[\omega=2\pi f\]
+Periodo: \[T=\frac{2\pi}{\omega}\]
+Accelerazione centripeta: \[|a|=\omega^2R\]
+Angolo: \[\varTheta(t)=\varTheta_0+\omega t\]
+\subsection{Vario}
+Accelerazione normale: \[a_n=\omega^2R\]
+Accelerazione tangenziale: \[a_t=\frac{dv}{dt}\]
 \end{document}
