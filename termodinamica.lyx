@@ -2468,5 +2468,819 @@ Ricordando che per un sistema monofasico e monocomponente,
 
 \end_layout
 
+\begin_layout Part
+Lezione del 28 Maggio 2010
+\end_layout
+
+\begin_layout Paragraph
+Epansione libera di un gas (ideale)
+\end_layout
+
+\begin_layout Standard
+(figura 7)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{i},V_{i},T_{i}$
+\end_inset
+
+ trasferimento non quasi statico , quindi irreversibile.
+ 
+\begin_inset Formula $p_{F},V_{F},T_{F}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Sperimentalmente si trova sempre che 
+\begin_inset Formula $T_{F}\simeq T_{i}$
+\end_inset
+
+ con 
+\begin_inset Formula $T_{F}\rightarrow T_{i}$
+\end_inset
+
+ quanto più il gas 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+gas ideale.
+\end_layout
+
+\begin_layout Standard
+Il primo principio della termodinamica dice che varrà sempre 
+\begin_inset Formula $\delta Q-\delta L\:=\: dU$
+\end_inset
+
+.
+ Il nostro sistema è isolato non scambia alcuna forma di energia.
+ 
+\begin_inset Formula $\delta Q=0$
+\end_inset
+
+ (celle di materiale isolante termico, 
+\emph on
+adiatermana
+\emph default
+) e 
+\begin_inset Formula $\delta L=0$
+\end_inset
+
+ (celle sono indeformabili: 
+\begin_inset Formula $\triangle V_{e}=0$
+\end_inset
+
+ e 
+\begin_inset Formula $L_{e}=0\:\Rightarrow\: L=-L_{e}=0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Quindi 
+\begin_inset Formula $dU\,=\,0$
+\end_inset
+
+, 
+\begin_inset Formula $U$
+\end_inset
+
+ è costante nella espansione libera del gas ideale.
+ Poichè 
+\begin_inset Formula $p_{F}\,\neq\, p_{i}$
+\end_inset
+
+ e 
+\begin_inset Formula $V_{F}\neq V_{i}$
+\end_inset
+
+ e 
+\begin_inset Formula $T_{F}=T_{i}$
+\end_inset
+
+ il fatto che 
+\begin_inset Formula $U$
+\end_inset
+
+ non vari implica che 
+\begin_inset Formula $U$
+\end_inset
+
+ del gas ideale non può dipendere né da 
+\begin_inset Formula $p$
+\end_inset
+
+ né da 
+\begin_inset Formula $V$
+\end_inset
+
+ ma solo da 
+\begin_inset Formula $T$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Concludendo: 
+\emph default
+Per un gas ideale abbiamo che 
+\begin_inset Formula $U\,=\, U\left(T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Calore molare a volume costante di un gas ideale
+\end_layout
+
+\begin_layout Itemize
+Caso 
+\series bold
+monoatomico
+\series default
+: 
+\begin_inset Formula $C_{V}\,=\,\frac{3}{2}\cdot R$
+\end_inset
+
+ ; si trova sperimentalmente per un gas ideale monoatomico 
+\begin_inset Formula $\left(He,Ne,Ar,Kv\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $dU\,=n\cdot c_{v}\cdot dT\:\Rightarrow\: dU\,=\, n\cdot\frac{3}{2}\cdot R\cdot dT\:\:\Rightarrow\:\: U\left(T\right)\,=\,\frac{3}{2}\cdot n\cdot R\cdot T\,+\, U_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Caso 
+\series bold
+biatomico
+\series default
+: 
+\begin_inset Formula $C_{V}\,=\,\frac{5}{2}\cdot R$
+\end_inset
+
+ ; si trova sperimentalmente per un gas ideale biatomico 
+\begin_inset Formula $\left(H_{2},N_{2},O_{2},\, con\, T>100K\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Caso 
+\series bold
+triatomico
+\series default
+ (e multiatomico): 
+\begin_inset Formula $C_{V}\,=\,\frac{7}{2}\cdot R$
+\end_inset
+
+ ; si trova sperimentalmente per un gas ideale triatomico o multiatomico.
+ (
+\begin_inset Formula $CH_{4}$
+\end_inset
+
+ a 
+\begin_inset Formula $T$
+\end_inset
+
+ elevata e bassa pressione)
+\end_layout
+
+\begin_layout Paragraph
+Gas ideale monoatomico
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{V}\,=\,\frac{3}{2}\cdot R$
+\end_inset
+
+ ; 
+\begin_inset Formula $U\,=\,\frac{3}{2}\cdot n\cdot R\cdot T\:+\: U_{0}$
+\end_inset
+
+(dove 
+\begin_inset Formula $U_{0}$
+\end_inset
+
+ a costante arbitraria)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $H\,=\: U+p\cdot V\:=\:\frac{3}{2}\cdot n\cdot R\cdot T+U_{0}+n\cdot R\cdot T\:\:\:=\:\:\frac{5}{2}\cdot n\cdot R\cdot T+U_{0}$
+\end_inset
+
+ (dove 
+\begin_inset Formula $p\cdot V$
+\end_inset
+
+ è l'equazione di stato)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $H\,=\, U+p\cdot V$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{p}\,=\,\frac{1}{n}\cdot\frac{dH}{dT}\,=\,\frac{1}{n}\cdot\frac{dU}{dT}+\frac{1}{n}\cdot\frac{d\left(p\cdot V\right)}{dT}\,=\, c_{v}+\frac{1}{n}\cdot\frac{n\cdot R\cdot dT}{dT}\:=\: c_{v}+R$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{p}\,=\,\frac{1}{n}\cdot\frac{dH}{dT}\,=\,\frac{5}{2}\cdot R\:=\: c_{v}+R$
+\end_inset
+
+ cioè 
+\begin_inset Formula $c_{p}\,=\, c_{v}+R$
+\end_inset
+
+, che è detta 
+\series bold
+Relazione di Mayer
+\series default
+ per ogni gas ideale (mono-,bi- o multi- atomico).
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazioni:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c_{p}$
+\end_inset
+
+ è sempre maggiore di 
+\begin_inset Formula $c_{v}$
+\end_inset
+
+; in effetti a parità di 
+\begin_inset Formula $dT$
+\end_inset
+
+ (e quindi di 
+\begin_inset Formula $dU$
+\end_inset
+
+) in una trasformazione a pressione costante a 
+\begin_inset Formula $\delta Q$
+\end_inset
+
+ corrisponde 
+\begin_inset Formula $dU+\delta L$
+\end_inset
+
+, mentre in una trasformazione a volume costante 
+\begin_inset Formula $\delta Q$
+\end_inset
+
+ corrisponde solo 
+\begin_inset Formula $dU$
+\end_inset
+
+, quindi 
+\begin_inset Formula $\left(\delta Q\right)_{p}>\left(\delta Q\right)_{v}\Rightarrow\: c_{p}>c_{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{c_{p}}{c_{v}}=\gamma$
+\end_inset
+
+ , costante per ogni gas ideale assegnato alla tipologia (mono, bi, multiatomica
+)
+\end_layout
+
+\begin_layout Paragraph
+Trasformazioni adiabatiche (
+\begin_inset Formula $\delta Q=0$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $dQ\,=\, dU+dL\,=\,0$
+\end_inset
+
+ (dal primo principio della termodinamica).
+\end_layout
+
+\begin_layout Standard
+Considerando un gas ideale 
+\begin_inset Formula $dU\,=\, n\cdot c_{v}\cdot dT$
+\end_inset
+
+, avremo 
+\begin_inset Formula $n\cdot c_{v}\cdot dT\,=\,-p\cdot dV$
+\end_inset
+
+ se considero trasformazioni reversibili in cui posso dire che 
+\begin_inset Formula $\delta L\,=\, p\cdot dV$
+\end_inset
+
+.
+ Per il gas ideale vale l'equazione di stato: 
+\begin_inset Formula $p\cdot V\,=\, n\cdot R\cdot T$
+\end_inset
+
+, quindi 
+\begin_inset Formula $n\cdot c_{v}\cdot dT\:=\:-\frac{n\cdot R\cdot T}{V}\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\int_{T_{0}}^{T}\frac{dT}{T}\,=\,\int_{V_{0}}^{V}-\frac{R}{c_{v}}\cdot\frac{dV}{V}$
+\end_inset
+
+ da cui 
+\begin_inset Formula $ln\left(T\right)\,=\,-\frac{R}{c_{v}}\cdot ln\left(V\right)+costante$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Possiamo quindi dire che 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\gamma-1\,=\,\left(\frac{c_{p}}{c_{v}}-\frac{c_{v}}{c_{v}}\right)\,=\,\frac{R}{c_{v}}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ln\left(T\right)\,=\,-ln\left(V^{(\gamma-1)}\right)+costante$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ln\left(T\cdot V^{(\gamma-1)}\right)\,=\, costante$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T\cdot V^{(\gamma-1)}\,=\, costante$
+\end_inset
+
+ (dove la costante è 
+\begin_inset Formula $T_{0}\cdot V_{0}^{(\gamma-1)}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+L'ultima equazione scritta è l'equazione di trasformazione adiabatica di
+ un gas ideale.
+ 
+\begin_inset Formula $T\cdot V^{\gamma-1}\,=\, T_{0}\cdot V_{0}^{(\gamma-1)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel piano di Clapeyron come si scrive l'equazione di una trasformazione
+ adiabatica di un gas ideale? Sostituisco a 
+\begin_inset Formula $T\,=\,\frac{p\cdot V}{n\cdot R}$
+\end_inset
+
+ (equazione di stato), 
+\begin_inset Formula $\frac{p\cdot V^{\gamma}}{n\cdot R}\,=\,\frac{p_{0}\cdot V_{0}^{\gamma}}{n\cdot R}\,=\, costante$
+\end_inset
+
+; da cui si ottiene finalmente: 
+\begin_inset Formula $p\cdot V^{\gamma}\,=\, p_{0}\cdot V_{0}^{\gamma}\,=\, costante$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Confronto tra adiabatica e isoterma reversibili di un gas perfetto
+\end_layout
+
+\begin_layout Itemize
+Adiabatica: 
+\begin_inset Formula $p\cdot V^{\gamma}\,=\, p_{0}\cdot V_{0}^{\gamma}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Isoterma: 
+\begin_inset Formula $p\cdot V\,=\, p_{0}\cdot V_{0}$
+\end_inset
+
+ (
+\begin_inset Formula $p\cdot V\,=\, n\cdot R\cdot T$
+\end_inset
+
+ equazione di stato, condizione isotermicità 
+\begin_inset Formula $T\,=\, costante\,=T_{0},$
+\end_inset
+
+
+\begin_inset Formula $p\cdot V\,=\, costante\,=\, p_{0}\cdot V_{0}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Nell'intorno di 
+\begin_inset Formula $p_{0}\cdot V_{0}$
+\end_inset
+
+ è più ripida la adiabatica o l'isoterma?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p=\frac{p_{0}\cdot V_{0}^{\gamma}}{V^{\gamma}}\,=\, p_{0}\cdot V_{0}^{\gamma}\cdot V^{-\gamma}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p\,=\,\frac{p_{0}\cdot V_{0}}{V}=p_{0}\cdot V_{0}\cdot V^{-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+da cui seguono le due relative equazioni 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dp}{dV}|_{p_{0},V_{0}}\,=\, p_{0}\cdot V_{0}^{\gamma}\cdot\left(-\gamma\right)\cdot V^{-\gamma-1}|_{p_{0},V_{0}}=p_{0}\cdot V_{0}^{\gamma}\cdot\left(-\gamma\right)\cdot V_{0}^{-\gamma-1}\,=\,-\gamma\cdot\left(\frac{p_{0}}{v_{0}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dp}{dV}|_{p_{0},V_{0}}\,=\, p_{0}\cdot V_{0}\cdot\left(-1\right)\cdot V^{-2}|_{p_{0},V_{0}}=p_{0}\cdot V_{0}\cdot\left(-1\right)\cdot V_{0}^{-2}\,=\,-\left(\frac{p_{0}}{v_{0}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Lavoro di un gas ideale in una trasforrmazione adiabatica reversibile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta L\,=\, p\cdot dV$
+\end_inset
+
+ ; 
+\begin_inset Formula $L\,=\,\int_{V_{i}}^{V_{F}}p\cdot dV$
+\end_inset
+
+ ; ricordando il primo principio della termodinamica (
+\begin_inset Formula $\delta Q\,=\, dU+\delta L$
+\end_inset
+
+).
+ Se la trasformazione è adiabatica abbiamo che 
+\begin_inset Formula $\delta Q\,=\,0\:\Rightarrow\:\delta L\,=\,-dU$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L\,=\,\int_{T_{i}}^{T_{F}}-dU\left(T\right)\,=\,-n\cdot c_{v}\cdot\int_{T_{i}}^{T_{F}}dT\,=\,-n\cdot c_{v}\cdot\left(T_{F}-T_{i}\right)\:\:=\:\:-\triangle U$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{F}\,=\,\frac{p_{F}\cdot V_{F}}{n\cdot R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{i}\,=\,\frac{p_{i}\cdot V_{i}}{n\cdot R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L\,=\, n\cdot c_{v}\cdot\left(\frac{p_{i}\cdot V_{i}}{n\cdot R}-\frac{p_{F}\cdot V_{F}}{n\cdot R}\right)=\frac{p_{i}\cdot V_{i}-p_{F}\cdot V_{F}}{\gamma-1}$
+\end_inset
+
+ (
+\begin_inset Formula $\frac{c_{v}}{R}=\frac{1}{\gamma-1}$
+\end_inset
+
+ infatti 
+\begin_inset Formula $\frac{R}{c_{v}}\,=\,\frac{c_{p}}{c_{v}}-\frac{c_{v}}{c_{v}}\,=\,\gamma-1$
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Paragraph
+Trasformazione politropica
+\end_layout
+
+\begin_layout Standard
+Trasformazione 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ reversibile che ha la seguente proprietà: 
+\begin_inset Formula $c_{\lambda}\,=\,\frac{1}{n}\cdot\left(\frac{\delta Q}{dT}\right)_{\lambda}\:=\: c_{\lambda}$
+\end_inset
+
+ (costante indipendente dalle variabili termodinamiche del sistema)
+\end_layout
+
+\begin_layout Subparagraph
+Ex.
+ Gas ideale monoatmoico
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c_{v}\,=\,\frac{3}{2}\cdot R$
+\end_inset
+
+ ; 
+\begin_inset Formula $c_{isoterma}\,=\infty\:\:(dT\,=\,0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c_{p}\,=\,\frac{5}{2}\cdot R$
+\end_inset
+
+ ; 
+\begin_inset Formula $c_{adiabatica}\,=\,0\:\:(\delta Q\,=\,0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Le trasformazioni isocore, isobare, isoterme e adiabatiche sono politropiche.
+\end_layout
+
+\begin_layout Standard
+Per una trasformazione qualsiasi in un sistema termodinamico chiuso (monofasico,
+ monocomponente) 
+\begin_inset Formula $\delta Q\,=\, n\cdot c_{v}\left(T,...\right)\cdot dT\:+\:\left[p+\frac{\delta U}{\delta V}\right]\cdot dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per il gas ideale vale 
+\begin_inset Formula $U=U\left(T\right)$
+\end_inset
+
+ e 
+\begin_inset Formula $c_{v}$
+\end_inset
+
+ è costante (indipendente da tutte le variabili termodinamiche) 
+\begin_inset Formula $\delta Q\,=\, n\cdot c_{v}\cdot dT\:\:+p\cdot dV$
+\end_inset
+
+ ; 
+\begin_inset Formula $c_{\lambda}\,=\,\frac{1}{n}\cdot\left(\frac{\delta Q}{dT}\right)_{\lambda}\,=\, c_{v}+\frac{p}{n}\cdot\frac{dV}{dT}\:\:\Rightarrow\:\: c_{\lambda}-c_{v}\,=\,\frac{1}{n}\cdot p\cdot\frac{dV}{dT}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p\cdot dV\:=\: d\left(p\cdot V\right)-V\cdot dp\,=\, d\left(n\cdot R\cdot T\right)-V\cdot dp$
+\end_inset
+
+ (dove 
+\begin_inset Formula $p\cdot V$
+\end_inset
+
+ è l'equazione di stato)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{\lambda}-c_{v}\,=\,\frac{1}{n}\cdot n\cdot R\cdot\frac{dT}{dT}-\frac{1}{n}\cdot V\cdot\frac{dp}{dT}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{\lambda}-\left(c_{v}+R\right)\,=\,-\frac{1}{n}\cdot V\cdot\frac{dp}{dT}$
+\end_inset
+
+ (dove 
+\begin_inset Formula $c_{v}+R$
+\end_inset
+
+ è l'equazione di Mayer)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{\lambda}-c_{p}\,=\,-\frac{1}{n}\cdot V\cdot\frac{dp}{dT}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{c_{\lambda}-c_{p}}{c_{\lambda}-c_{v}}\,=-\frac{V\cdot dp}{p\cdot dV}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se però per definizione di politropica 
+\begin_inset Formula $c_{\lambda}$
+\end_inset
+
+ è indipendente da 
+\begin_inset Formula $p,V,T$
+\end_inset
+
+ e sapendo che 
+\begin_inset Formula $c_{v}$
+\end_inset
+
+ e 
+\begin_inset Formula $c_{p}$
+\end_inset
+
+ sono costanti allora anche 
+\begin_inset Formula $\frac{c_{\lambda}-c_{p}}{c_{\lambda}-c_{v}}$
+\end_inset
+
+ è costante e viene detta 
+\emph on
+indice della politropica 
+\emph default
+
+\begin_inset Formula $x\,=\,\frac{c_{\lambda}-c_{p}}{c_{\lambda}-c_{v}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Essendo 
+\begin_inset Formula $x$
+\end_inset
+
+ anche uguale a 
+\begin_inset Formula $-\frac{V\cdot dp}{p\cdot dV}$
+\end_inset
+
+ ricavo l'equazione diferenziale di una generica trasformazione politropica
+ di un gas ideale 
+\begin_inset Formula $-\frac{V\cdot dp}{p\cdot dV}\,=\, x$
+\end_inset
+
+ ; 
+\begin_inset Formula $\int\frac{dp}{p}\,=\,\int-x\cdot\frac{dV}{V}$
+\end_inset
+
+ e quindi 
+\begin_inset Formula $ln\left(p\right)+costante\,=\,-ln\left(V^{x}\right)+costante2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ln\left(p\cdot V^{x}\right)\,=\, costante2\,\:\Rightarrow\: p\cdot V^{x}\,=\, costante\,=p_{0}\cdot V_{0}^{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazioni:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x=\gamma=\frac{c_{p}}{c_{v}}$
+\end_inset
+
+ ritrovo la adiabatica (
+\begin_inset Formula $p\cdot V^{\gamma}=costante$
+\end_inset
+
+) (
+\begin_inset Formula $c_{ad}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x=0$
+\end_inset
+
+ ritrovo la isobara (
+\begin_inset Formula $p=costante$
+\end_inset
+
+) (
+\begin_inset Formula $c_{p}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x=\infty$
+\end_inset
+
+ ritrovo la isocora (
+\begin_inset Formula $V\,=\, costante$
+\end_inset
+
+) (
+\begin_inset Formula $c_{v}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x=1$
+\end_inset
+
+ ritrovo la isoterma (
+\begin_inset Formula $p\cdot V\,=\, costante$
+\end_inset
+
+) (
+\begin_inset Formula $c_{iso}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Come 
+\begin_inset Quotes eld
+\end_inset
+
+esercizio
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ si provi a clacolare il lavoro lungo una generica politropica (se è generico)
+\end_layout
+
 \end_body
 \end_document
