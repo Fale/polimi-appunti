@@ -3282,5 +3282,1026 @@ esercizio
  si provi a clacolare il lavoro lungo una generica politropica (se è generico)
 \end_layout
 
+\begin_layout Part
+Lezione del 3 Giugno 2010
+\end_layout
+
+\begin_layout Standard
+Supponendo 
+\begin_inset Formula $\triangle U\,=\,0$
+\end_inset
+
+ (trasformazione ciclica)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Q=L$
+\end_inset
+
+ (Primo principio della termodinamica).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L$
+\end_inset
+
+ si trasforma tutto in 
+\begin_inset Formula $Q$
+\end_inset
+
+ (è vero)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Q$
+\end_inset
+
+ si trasforma tutto in 
+\begin_inset Formula $L$
+\end_inset
+
+ (è 
+\series bold
+falso sperimentalmente
+\series default
+)
+\end_layout
+
+\begin_layout Standard
+Sperimentalmente, nonostante il primo principio della termodinamica non
+ lo vieti, si trova che 
+\series bold
+non è possibile trasformare tutto il calore in lavoro
+\series default
+.
+ In altre parole è pur vero che 
+\begin_inset Formula $Q=L$
+\end_inset
+
+, ma 
+\begin_inset Formula $Q$
+\end_inset
+
+ è sempre fatto di due parti: un calore assorbito e un calore ceduto dal
+ sistema: 
+\begin_inset Formula $Q=Q_{assorbito}-Q_{ceduto}$
+\end_inset
+
+ con 
+\begin_inset Formula $Q_{ceduto}\neq0$
+\end_inset
+
+, quindi 
+\begin_inset Formula $Q<Q_{assorbito}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Paragraph
+Definizione di Macchina Termica
+\end_layout
+
+\begin_layout Standard
+Dispositivo che operando ciclicamente è in grado di produrre lavoro scambiando
+ calore con delle sorgenti termiche.
+ Definiamo 
+\begin_inset Formula $Q_{assorbito}\,=\,\overset{n}{\underset{i=1}{\sum}}Q_{i,assorbito}$
+\end_inset
+
+ essendo 
+\begin_inset Formula $Q_{i,assorbito}$
+\end_inset
+
+ il calore assorbito dal sistema termodinamico della macchina della sorgente
+ a temperatura 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $Q_{ceduto}\,=\,\overset{n}{\underset{i=1}{\sum}}Q_{i,ceduto}$
+\end_inset
+
+ , essendo 
+\begin_inset Formula $Q_{i,ceduto}$
+\end_inset
+
+ il calore ceduto dal sistema termodinamico della macchina alla sorgente
+ a temperatura 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione:
+\emph default
+ Poichè la macchina termina opera ciclicamente 
+\begin_inset Formula $\triangle U\,=\,0$
+\end_inset
+
+ .
+ Quindi per il primo principio della termodinamica 
+\begin_inset Formula $L=Q=Q_{assorbito}-Q_{ceduto}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Definizione di rendimento di una macchina termica
+\end_layout
+
+\begin_layout Standard
+Si indica con 
+\begin_inset Formula $\eta\,=\,\frac{L}{Q_{assorbito}}\,=\,\frac{Q_{assorbito}-Q_{ceduto}}{Q_{assorbito}}\,=\,1-\frac{Q_{ceduto}}{Q_{assorbito}}$
+\end_inset
+
+.
+ Segue che ovviamente 
+\begin_inset Formula $\eta$
+\end_inset
+
+ dipende da: 
+\end_layout
+
+\begin_layout Itemize
+tipo di sistema termodinamico che compie il ciclo della macchina
+\end_layout
+
+\begin_layout Itemize
+tipo di ciclo della maccina termica
+\end_layout
+
+\begin_layout Itemize
+temperatura delle sorgenti di calore
+\end_layout
+
+\begin_layout Paragraph
+Esempio macchina termica
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 8 euge)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L\,=\, Q_{assorbito}-Q_{ceduto}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\eta\,=\,\frac{L}{Q_{2}}\,=\,1-\frac{Q_{1}}{Q_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Esempio macchina frigorifera
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 8 euge)
+\end_layout
+
+\begin_layout Standard
+Il rendimento di una macchina frigorifera si esprime così: 
+\begin_inset Formula $F=\frac{Q_{1}}{L}\,=\,\frac{Q_{1}}{Q_{2}-Q_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Il secondo principio della termodinamica
+\end_layout
+
+\begin_layout Subparagraph
+Prima formulazione di Kelvin
+\end_layout
+
+\begin_layout Standard
+Secondo 
+\emph on
+Lord Kelvin (1851) 
+\emph default
+è impossibile realizzare una macchina termica che funziando ciclicamente
+ possa trasformare in lavoro tutto il calore assorbito da un'unica sorgente
+ (sorgente a temperatura uniforme).
+\end_layout
+
+\begin_layout Subparagraph
+Seconda formulazione di Kelvin
+\end_layout
+
+\begin_layout Standard
+È impossibile realizzare una trasformazione termodinamica il cui unico risultato
+ sia di trasformare completamente il calore assorbito in lavoro.
+\end_layout
+
+\begin_layout Subparagraph
+Enunciato di Clausius (1850)
+\end_layout
+
+\begin_layout Standard
+È impossibile il passaggio spontaneo (senza fare lavoro) di calore da un
+ corpo freddo a un corpo caldo per 
+\emph on
+differenza finita
+\emph default
+ di temperature.
+\end_layout
+
+\begin_layout Subparagraph
+Equivalenza tra gli enunciati di Kelvin e Clausius
+\end_layout
+
+\begin_layout Standard
+Ipotesi: 
+\series bold
+\emph on
+Falso Kelvin 
+\emph default
+e 
+\emph on
+Vero Clausius
+\end_layout
+
+\begin_layout Standard
+Se è falso Kelvin 
+\begin_inset Formula $\exists m_{t}\,\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 9 euge)
+\end_layout
+
+\begin_layout Standard
+La macchina 
+\begin_inset Formula $m_{t}\,\cup\, m_{f}$
+\end_inset
+
+ assorbe la quantità di calore 
+\begin_inset Formula $Q'$
+\end_inset
+
+ da sorgente 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ e cede la quantità di calore 
+\begin_inset Formula $Q''-Q\,=\, Q'$
+\end_inset
+
+ dalla sorgente 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ senza 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+subire
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ lavoro, quindi spontaneamente.
+ Quindi 
+\begin_inset Formula $m_{t}\cup m_{f}$
+\end_inset
+
+ viola 
+\emph on
+Clausius
+\emph default
+, ma ciò contraddice l'ipotesi.
+ 
+\series bold
+Quindi l'ipotesi è assurda.
+\end_layout
+
+\begin_layout Standard
+Ipotizziamo ora invece che sia 
+\series bold
+\emph on
+Falso Clausius e Vero Kelvin
+\series default
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 10 euge)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{f}\cup m_{t}$
+\end_inset
+
+ scambia calore 
+\begin_inset Formula $Q'-Q$
+\end_inset
+
+ con la sorgente a 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ e invece scambia calore 
+\begin_inset Formula $Q'-Q=0$
+\end_inset
+
+ con la sorgente a temperatura 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+.
+ Quindi 
+\begin_inset Formula $m_{f}\cup m_{t}$
+\end_inset
+
+compie lavoro 
+\begin_inset Formula $L\,=\, Q'-Q$
+\end_inset
+
+ assorbendo la quantoità di calore 
+\begin_inset Formula $Q'-Q$
+\end_inset
+
+ da una unica sorgente e ciò contraddice 
+\emph on
+Kelvin.
+
+\emph default
+ Segue che quindi 
+\series bold
+l'ipotesi è assurda.
+\end_layout
+
+\begin_layout Standard
+Abbiamo quindi questo simpatico schema:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Falso Kelvin
+\series default
+ e 
+\series bold
+Vero Clausius
+\series default
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\series bold
+Falso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vero Kelvin
+\series default
+ e 
+\series bold
+Falso Clausius
+\series default
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\series bold
+Falso
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Falso Kelvin
+\series default
+ e 
+\series bold
+Falso Clausius
+\series default
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\series bold
+Vera?
+\series default
+ No, per evidenza sperimentale.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vero Kelvin
+\series default
+ e 
+\series bold
+Vero Clausius
+\series default
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\series bold
+VERA
+\end_layout
+
+\begin_layout Paragraph
+Moto perpetuo di seconda specie
+\end_layout
+
+\begin_layout Standard
+Il secondo principio della termodinamica nega il moto perpetuo di seconda
+ specie (realizzare un sistema che si muova indefinitamente assorbendo esenrgia
+ da una unica sorgente).
+\end_layout
+
+\begin_layout Paragraph
+Macchina reversibile di Carnot
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 11 euge)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A\rightarrow B$
+\end_inset
+
+ isoterma a 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+: gas ideale 
+\begin_inset Formula $\triangle U=0$
+\end_inset
+
+, 
+\begin_inset Formula $L=Q$
+\end_inset
+
+ (per il primo principio della termodinamica)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{A\rightarrow B}\,=\, n\cdot R\cdot T_{2}\cdot ln\left(\frac{V_{B}}{V_{A}}\right)>0$
+\end_inset
+
+ , essendo 
+\begin_inset Formula $V_{B}>V_{A}$
+\end_inset
+
+(espansione), allora 
+\begin_inset Formula $Q_{AB}\,=\, L_{AB}>0$
+\end_inset
+
+ quindi 
+\begin_inset Formula $Q_{AB}=Q_{assorbita}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B\rightarrow C$
+\end_inset
+
+ : adiabatica 
+\begin_inset Formula $Q_{BC}\,=\,0\:\:\Rightarrow L_{BC}\,=\,-\triangle U_{BC}$
+\end_inset
+
+ (per il primo principio della termodinamica) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{BC}\,=\,-n\cdot c_{v}\cdot\left(T_{1}-T_{2}\right)>0$
+\end_inset
+
+ che è coerente con il fatto che 
+\begin_inset Formula $V_{C}>V_{B}$
+\end_inset
+
+ (espansione)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C\rightarrow D$
+\end_inset
+
+ : isoterma a 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+(gas ideale) 
+\begin_inset Formula $\triangle U_{CD}=0\:\:\Rightarrow\:\: L_{CD}\,=\, n\cdot R\cdot T_{1}\cdot ln\left(\frac{V_{D}}{V_{C}}\right)<0$
+\end_inset
+
+ essendo 
+\begin_inset Formula $V_{D}<V_{C}$
+\end_inset
+
+ (compressione) allora 
+\begin_inset Formula $Q_{CD}\,=\, L_{CD}<0$
+\end_inset
+
+, quindi 
+\begin_inset Formula $Q_{CD}\,=\,-Q_{ceduta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D\rightarrow A$
+\end_inset
+
+ : Adiabatica.
+ 
+\begin_inset Formula $Q_{DA}\,=\,0\:\:\:\Rightarrow\:\: L_{DA}=-\triangle U_{DA}\,=\,-n\cdot c_{v}\cdot\left(T_{2}-T_{1}\right)<0$
+\end_inset
+
+, coerente con l'essere 
+\begin_inset Formula $V_{A}<V_{D}$
+\end_inset
+
+ (compressione)
+\end_layout
+
+\begin_layout Standard
+Abbiamo ora che: 
+\begin_inset Formula $L=L_{AB}+L_{BC}+L_{CD}+L_{DA}=n\cdot R\cdot T_{2}\cdot ln\left(\frac{V_{B}}{V_{A}}\right)-n\cdot R\cdot T_{1}\cdot ln\left(\frac{V_{C}}{V_{D}}\right)+L_{BC}+L_{DA}$
+\end_inset
+
+ (dove 
+\begin_inset Formula $L_{BC}+L_{DA}=0$
+\end_inset
+
+).
+ Esprimiamo il rendimento così: 
+\begin_inset Formula $\eta=1-\frac{Q_{ced}}{Q_{ass}}\,=\,1-\frac{T_{1}}{T_{2}}\cdot\frac{ln\left(\frac{V_{C}}{V_{B}}\right)}{ln\left(\frac{V_{B}}{V_{A}}\right)}$
+\end_inset
+
+ da cui possiamo ricavare: 
+\begin_inset Formula $T_{B}\cdot V_{B}^{\gamma-1}\,=\, T_{C}\cdot V_{C}^{\gamma-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{2}\cdot V_{B}^{\gamma-1}\,=\, T_{1}\cdot V_{C}^{\gamma-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e anche
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{A}\cdot V_{A}^{\gamma-1}\,=\, T_{D}\cdot V_{D}^{\gamma-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{2}\cdot V_{A}^{\gamma-1}\,=\, T_{1}\cdot V_{D}^{\gamma-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e otteniamo 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\frac{V_{B}}{V_{A}}\right)^{\gamma-1}=\left(\frac{V_{C}}{V_{D}}\right)^{\gamma-1}$
+\end_inset
+
+ cioè 
+\begin_inset Formula $\frac{V_{B}}{V_{A}}=\frac{V_{C}}{V_{D}}$
+\end_inset
+
+ da cui si deduce che il rapporto tra i logaritmi della formula precedente
+ è pari a 1.
+ Da questo segue quindi 
+\begin_inset Formula $\eta=1-\frac{T_{1}}{T_{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Part
+Lezione del 4 Giugno 2010
+\end_layout
+
+\begin_layout Paragraph
+Secondo teorema di Carnot
+\end_layout
+
+\begin_layout Standard
+La macchina reversibile di Carnot che opera tra le temperature 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ e 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ è la macchina termica dotata del più alto rendimento tra tutte le macchine
+ termiche che operano tra le medesime temperature estreme 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ e 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subparagraph
+Dimostrazione (prima parte)
+\end_layout
+
+\begin_layout Standard
+Caso particolare di macchine che operano tra due sole sorgenti a temperatura
+ 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ e 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 12 euge)
+\end_layout
+
+\begin_layout Standard
+Supponiamo per assurdo che 
+\begin_inset Formula $\eta_{S}>\eta_{C}$
+\end_inset
+
+.
+ Esisterà sempre una macchina frigorifera di Carnot che opera tra 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ e 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ e quindi se la alimento con il lavoro compiuto dalla macchina termica 
+\begin_inset Formula $S$
+\end_inset
+
+ avrò che 
+\begin_inset Formula $Q_{C}\,=\, L+Q'_{C}\:\:\:\Rightarrow\: Q_{C}-Q'_{C}\,=\, L$
+\end_inset
+
+.
+ Per 
+\begin_inset Formula $S$
+\end_inset
+
+ valeva 
+\begin_inset Formula $Q_{S}-Q'_{S}\,=\, L$
+\end_inset
+
+ ,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Q_{C}-Q'_{C}\:=\: Q_{S}-Q'_{S}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Q'_{C}-Q'_{S}\:=\: Q_{C}-Q_{S}$
+\end_inset
+
+ 
+\emph on
+(ancora riferimento a figura 12 euge)
+\end_layout
+
+\begin_layout Standard
+Allora la macchina termica 
+\begin_inset Formula $S\cup C_{F}$
+\end_inset
+
+ compie il trasporto di una quantità di calore 
+\begin_inset Formula $Q_{C}-Q_{S}$
+\end_inset
+
+ da una sorgente fredda a una calda senza lavoro.
+ Cioè 
+\begin_inset Formula $S\cup C_{F}$
+\end_inset
+
+ viola il secondo principio della termodinamica (Clausius).
+ Quindi la negazione della tesi è assurda.
+\end_layout
+
+\begin_layout Standard
+Troviamo quindi 
+\begin_inset Formula $\eta_{S}\leq\eta_{C}\,=\,1-\frac{T_{1}}{T_{2}}$
+\end_inset
+
+.
+ Operando tra due sole sorgenti 
+\begin_inset Formula $S$
+\end_inset
+
+ è o la macchina di Carnot 
+\begin_inset Formula $C$
+\end_inset
+
+ o 
+\begin_inset Formula $C_{irr}$
+\end_inset
+
+.
+ Se 
+\begin_inset Formula $S=C$
+\end_inset
+
+ allora ovviamente 
+\begin_inset Formula $\eta_{S}=\eta_{C}$
+\end_inset
+
+.
+ Altrimenti se 
+\begin_inset Formula $S$
+\end_inset
+
+ è irreversibile varrà 
+\begin_inset Formula $\eta_{S}<\eta_{C}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Secondo teorema di Clausius
+\end_layout
+
+\begin_layout Standard
+In ogni trasformazione ciclica di un sistema termodinamico, la somma di
+ tutti i rapporti tra le quantità di calore scambiate e le corrispondenti
+ temperature assolute delle sorgenti di calore è minore o uguale a 
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\oint\,\frac{dQ}{T}\:\leq\,0$
+\end_inset
+
+ (anche se in realtà la forma originale è 
+\begin_inset Formula $\overset{n}{\underset{i=1}{\sum}}\frac{Q_{i}}{T_{i}}\,\leq\,0$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Formula $=$
+\end_inset
+
+per cicli reversibili e 
+\begin_inset Formula $<$
+\end_inset
+
+per cicli irreversibili)
+\end_layout
+
+\begin_layout Subparagraph
+Dimostrazione
+\end_layout
+
+\begin_layout Standard
+Consideriamo una macchina termica che opera scambiando calore con 
+\begin_inset Formula $N+1$
+\end_inset
+
+ sorgenti a temperatura rispettivamente 
+\begin_inset Formula $T_{0}<T_{1}<T_{2}<\ldots<T_{N}$
+\end_inset
+
+.
+ 
+\emph on
+(figura 13 euge)
+\end_layout
+
+\begin_layout Standard
+Costruisco un sistema di macchine termiche di Carnot che operino tra le
+ coppie di temperature 
+\begin_inset Formula $T_{0},T_{1};\, T_{0},T_{2};\, T_{0},T_{3};\:\ldots\: T_{0};\: T_{N}$
+\end_inset
+
+ e tali che sia 
+\begin_inset Formula $Q_{C}=-Q_{i}$
+\end_inset
+
+ con 
+\begin_inset Formula $Q_{C,i}$
+\end_inset
+
+ la quantità di calore scambiata dalla i-esima macchina termica di Carnot
+ con la sorgente a temperatura 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+.
+ (Avremo che 
+\begin_inset Formula $L_{i}\,=\,\eta_{C,i}\cdot Q_{ass,i}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 14 euge)
+\end_layout
+
+\begin_layout Standard
+Detta 
+\begin_inset Formula $Q_{0,i}$
+\end_inset
+
+ la quantità di calore scambiato dal 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ con 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+, posso determinare la quantità di calore complessivamente scambiata dalla
+ macchina termica, unione di 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ e 
+\begin_inset Formula $S$
+\end_inset
+
+, cioè 
+\begin_inset Formula $S\cup C_{1}\cup C_{2}\cup\ldots C_{N}$
+\end_inset
+
+ scambia calore solo con sorgente a temperatura 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+ per costruzione (delle 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+).
+ Con esse scambia la quantità di calore 
+\begin_inset Formula $Q\,=\, Q_{0}+\overset{N}{\underset{i=1}{\sum}}Q_{0,i}$
+\end_inset
+
+.
+ Tuttavia sappiamo dalla teoria della macchina termica di Carnot ideale,
+ che vale la relazione 
+\begin_inset Formula $\frac{Q_{1}}{Q_{2}}\,=\,-\frac{T_{1}}{T_{2}}$
+\end_inset
+
+ 
+\emph on
+(figura 15 euge)
+\emph default
+ .
+\end_layout
+
+\begin_layout Standard
+Quindi posso scrivere che 
+\begin_inset Formula $\frac{Q_{0,i}}{Q_{C,i}}\,=\,\frac{T_{0}}{T_{i}}\,\:\Rightarrow\:\: Q_{0,i}\,=\,-T_{0}\cdot\frac{Q_{c,i}}{T_{i}}\,=\, T_{0}\cdot\frac{Q_{i}}{T_{i}}$
+\end_inset
+
+ e quindi: 
+\begin_inset Formula $Q\,=\, Q_{0}+T_{0}\cdot\overset{N}{\underset{i=1}{\sum}}\frac{Q_{i}}{T_{i}}\:\:\:\Rightarrow\:\:\frac{Q}{T_{0}}\,=\,\overset{N}{\underset{i=1}{\sum}}\frac{Q_{i}}{T_{i}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{0}$
+\end_inset
+
+ è positiva (
+\begin_inset Formula $T$
+\end_inset
+
+ assoluta!)
+\end_layout
+
+\begin_layout Standard
+Osserviamo che 
+\begin_inset Formula $Q$
+\end_inset
+
+ non può essere positivo, altrimenti vorrebbe dire che 
+\begin_inset Formula $S\cup C_{1}\cup C_{2}\cup\ldots C_{N}$
+\end_inset
+
+ viola il scondo principio della termodinamica (
+\emph on
+Kelvin
+\emph default
+).
+\end_layout
+
+\begin_layout Standard
+Quindi 
+\begin_inset Formula $Q\,\leq\,0$
+\end_inset
+
+, quindi 
+\begin_inset Formula $\overset{N}{\underset{i=1}{\sum}}\frac{Q_{i}}{T_{i}}\:\leq\:0$
+\end_inset
+
+.
+ Nel caso generalissimo di 
+\begin_inset Formula $\infty$
+\end_inset
+
+ sorgenti la sommatoria diviene un integrale e si ha 
+\begin_inset Formula $\oint\,\frac{\delta Q}{T}\,\leq\,0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione:
+\emph default
+ Se 
+\begin_inset Formula $S$
+\end_inset
+
+ è reversibile abbiamo 
+\begin_inset Formula $\overset{N}{\underset{i=1}{\sum}}\frac{Q_{i}}{T_{i}}\,\geq\,0\:\:\:\wedge\:\:\overset{N}{\underset{i=1}{\sum}}\frac{Q_{i}}{T_{i}}\,\leq\,0\:\:\Rightarrow\,\overset{N}{\underset{i=1}{\sum}}\frac{Q_{i}}{T_{i}}\,=\,0$
+\end_inset
+
+.
+\end_layout
+
 \end_body
 \end_document
