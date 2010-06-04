@@ -4303,5 +4303,226 @@ Osservazione:
 .
 \end_layout
 
+\begin_layout Paragraph
+Seconda parte dimostrazione teorema di Carnot
+\end_layout
+
+\begin_layout Standard
+Caso generale di una macchina termica 
+\begin_inset Formula $S$
+\end_inset
+
+ che scambia calore con una infinità di sorgenti con temperature comprese
+ tra 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ e 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ (temperature esterne).
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 16 euge)
+\end_layout
+
+\begin_layout Standard
+Sia 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ ciclo reversibile dal teorema di Clausius sarà 
+\begin_inset Formula $\oint_{\gamma}\,\frac{\delta Q}{T}\,=\,0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\int_{\gamma,\delta Q>0}\frac{\delta Q}{T}\:\:+\int_{\gamma,\delta Q<0}\frac{|\delta Q|}{T}\,=\,0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\int_{\gamma,\delta Q>0}\frac{\delta Q}{T}\,\:\:<\:\:\int_{\gamma,\delta Q<0}\frac{|\delta Q|}{T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\int_{\gamma,\delta Q>0}\frac{\delta Q}{T}\,>\,\int_{\gamma,\delta Q>0}\frac{|\delta Q|}{T_{2}}\,=\,\frac{Q_{assorbito}}{T_{2}}$
+\end_inset
+
+ con (
+\begin_inset Formula $T_{2}>T$
+\end_inset
+
+ in ogni tratto del ciclo)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\int_{\gamma,\delta Q>0}\frac{|\delta Q|}{T}\,>\,\int_{\gamma,\delta Q>0}\frac{|\delta Q|}{T_{1}}\,=\,\frac{Q_{ceduto}}{T_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{Q_{assorbito}}{T_{2}}\,<\,\frac{Q_{ceduto}}{T_{1}}\:\:\Rightarrow\:\:\frac{Q_{ceduto}}{Q_{assorbito}}>\frac{T_{1}}{T_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\eta_{S}\,=\,1-\frac{Q_{ceduto}}{Q_{assorbito}}<1-\frac{T_{1}}{T_{2}}\,=\,\eta_{C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sappiamo che in una macchina termica di Carnot a gas ideale il rapport 
+\begin_inset Formula $\frac{Q_{2}}{Q_{1}}\,=\,-\frac{T_{2}}{T_{1}}\,=\, F\left(T_{1},T_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inoltre il primo teorema di Carnot dice che il rendimento di una macchina
+ termica di Carnot reversibile ideale è indipendente dalla natura del sistema
+ termodinamico che compie il ciclo.
+ Quindi il rapporto 
+\begin_inset Formula $\frac{Q_{2}}{Q_{1}}\,=\, F\left(t_{1},t_{2}\right)$
+\end_inset
+
+ (con 
+\begin_inset Formula $t_{1}$
+\end_inset
+
+ e 
+\begin_inset Formula $t_{2}$
+\end_inset
+
+ le temperature empiriche delle sorgenti con cui opera la macchina termica
+ di Carnot ideale).
+ Allora 
+\begin_inset Formula $F$
+\end_inset
+
+ è una 
+\series bold
+Funzione universale
+\series default
+ (di Carnot) che dipende solo dalle temperature delle sorgenti.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 17 euge)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F\left(t_{2},t_{1}\right)\,=\,\frac{F\left(t_{2},t_{0}\right)}{F\left(t_{1},t_{0}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+indipendentemente da 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ possibile solo se 
+\begin_inset Formula $f\left(t,t_{0}\right)\,=\, k\cdot\theta\left(t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta$
+\end_inset
+
+ rappresenta la temperatura della sorgente più calda con cui la macchina
+ ha scambiato calore.
+ Tale temperatura essendo figlia della Funzione universale di Carnot è ancora
+ più assoluta della temperatura del gas ideale e viene detta temperatura
+ termodinamica 
+\begin_inset Formula $\frac{Q_{2}}{Q_{1}}\,=\,-\frac{\theta_{2}}{\theta_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 18 euge)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{Q_{r}}{Q_{0}}\,=\,-\frac{\theta_{r}}{\theta_{0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 19 euge)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{Q}{Q_{r}}\,=\,\frac{\theta}{\theta_{r}}\:\:\Rightarrow\:\:\theta\,=\,\frac{\theta_{r}}{Q_{r}}\cdot Q$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La temperatura termodinamica è proporzionale alla temperatura del gas ideale..
+\end_layout
+
+\begin_layout Subparagraph
+Caso particolare di macchina termica di Carnot a gas ideale reversibile
+\end_layout
+
+\begin_layout Standard
+So che 
+\begin_inset Formula $\frac{Q_{2}}{Q_{1}}\,=\,-\frac{T_{2}}{T_{1}}$
+\end_inset
+
+ e posso scrivere che 
+\begin_inset Formula $T\,=\,\frac{T_{r}}{Q_{r}}\cdot Q$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pur di prendere 
+\begin_inset Formula $\theta_{r}\,=\, T_{r}\,=\,\,273.16\, K$
+\end_inset
+
+ allora 
+\begin_inset Formula $\theta\equiv T$
+\end_inset
+
+ 
+\end_layout
+
 \end_body
 \end_document
