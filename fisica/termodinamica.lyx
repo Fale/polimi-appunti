@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -631,10 +631,14 @@ del termometro.
 \end_layout
 
 \begin_layout Itemize
-Termometri a gas diversi misurano anche temperature un po' diverse.
- 
-\emph on
-(figura 1)
+Termometri a gas diversi misurano anche temperature un po' diverse 
+\begin_inset Graphics
+	filename 1.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -1120,7 +1124,14 @@ piano di Clapeyron
 
 
 \emph default
- (figura 2).
+ 
+\begin_inset Graphics
+	filename 2.png
+	scale 60
+
+\end_inset
+
+.
  Sappiamo che 
 \begin_inset Formula $p\cdot v$
 \end_inset
@@ -1178,7 +1189,14 @@ a attraverso una legge matematica di trasformazione che lega tra loro le
 Nel piano di stato scelto per la rappresentazione del sistema termodinamico
  con trasformazione quasi statica assume la forma di una coruva continua
  orientata.
- (figura 3)
+ 
+\begin_inset Graphics
+	filename 3.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -1229,7 +1247,13 @@ Esempio di trasformazione reversibile
 \end_layout
 
 \begin_layout Standard
-(figura 4)
+\begin_inset Graphics
+	filename 4.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1309,7 +1333,13 @@ Esempio di trasformazione reverisibile con solo scambio di calore
 \end_layout
 
 \begin_layout Standard
-(figura 5)
+\begin_inset Graphics
+	filename 5.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1532,9 +1562,9 @@ Lavoro del gas ideale in alcune trasformazioni notevoli reversibili.
 \end_layout
 
 \begin_layout Standard
-Casi notevoli di trasformazioni reversibili sono: 
+Casi notevoli di trasformazioni reversibili sono:
 \emph on
-(figura 8)
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -1664,12 +1694,6 @@ Definiamo calore quell'ente fisico che due sistemi termodinamici posti in
 
 \begin_layout Subparagraph
 Esperimento di Joule
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-(figura 9)
 \end_layout
 
 \begin_layout Standard
@@ -3446,9 +3470,19 @@ Esempio macchina termica
 \end_layout
 
 \begin_layout Standard
+Figura: 
+\end_layout
+
+\begin_layout Standard
 
 \emph on
-(figura 8 euge)
+\begin_inset Graphics
+	filename 8.png
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3467,12 +3501,6 @@ Esempio macchina termica
 
 \begin_layout Paragraph
 Esempio macchina frigorifera
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-(figura 8 euge)
 \end_layout
 
 \begin_layout Standard
@@ -3549,7 +3577,13 @@ Se è falso Kelvin
 \begin_layout Standard
 
 \emph on
-(figura 9 euge)
+\begin_inset Graphics
+	filename 9.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3613,7 +3647,13 @@ Falso Clausius e Vero Kelvin
 \begin_layout Standard
 
 \emph on
-(figura 10 euge)
+\begin_inset Graphics
+	filename 10.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3752,9 +3792,19 @@ Macchina reversibile di Carnot
 \end_layout
 
 \begin_layout Standard
+Figura:
+\end_layout
+
+\begin_layout Standard
 
 \emph on
-(figura 11 euge)
+\begin_inset Graphics
+	filename 11.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3976,7 +4026,13 @@ Caso particolare di macchine che operano tra due sole sorgenti a temperatura
 \begin_layout Standard
 
 \emph on
-(figura 12 euge)
+\begin_inset Graphics
+	filename 12a.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4024,9 +4080,17 @@ Supponiamo per assurdo che
 \begin_inset Formula $Q'_{C}-Q'_{S}\:=\: Q_{C}-Q_{S}$
 \end_inset
 
- 
-\emph on
-(ancora riferimento a figura 12 euge)
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 12b.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4137,9 +4201,18 @@ Consideriamo una macchina termica che opera scambiando calore con
 \end_inset
 
 .
- 
+\end_layout
+
+\begin_layout Standard
+
 \emph on
-(figura 13 euge)
+\begin_inset Graphics
+	filename 13.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4172,7 +4245,13 @@ Costruisco un sistema di macchine termiche di Carnot che operino tra le
 \begin_layout Standard
 
 \emph on
-(figura 14 euge)
+\begin_inset Graphics
+	filename 14.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4222,9 +4301,21 @@ Detta
 
  
 \emph on
-(figura 15 euge)
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Graphics
+	filename 15.png
+	scale 60
+
+\end_inset
+
+
 \emph default
- .
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4327,7 +4418,13 @@ Caso generale di una macchina termica
 \begin_layout Standard
 
 \emph on
-(figura 16 euge)
+\begin_inset Graphics
+	filename 16.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4429,7 +4526,13 @@ Funzione universale
 \begin_layout Standard
 
 \emph on
-(figura 17 euge)
+\begin_inset Graphics
+	filename 17.png
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4469,7 +4572,13 @@ indipendentemente da
 \begin_layout Standard
 
 \emph on
-(figura 18 euge)
+\begin_inset Graphics
+	filename 18.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4482,7 +4591,13 @@ indipendentemente da
 \begin_layout Standard
 
 \emph on
-(figura 19 euge)
+\begin_inset Graphics
+	filename 19.png
+	scale 60
+
+\end_inset
+
+y
 \end_layout
 
 \begin_layout Standard
