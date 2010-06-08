@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -4597,7 +4597,7 @@ indipendentemente da
 
 \end_inset
 
-y
+
 \end_layout
 
 \begin_layout Standard
@@ -4637,6 +4637,957 @@ Pur di prendere
 \end_inset
 
  
+\end_layout
+
+\begin_layout Part
+Lezione del 8 Giugno 2010
+\end_layout
+
+\begin_layout Paragraph
+Entropia
+\end_layout
+
+\begin_layout Standard
+Considero un ciclo reversibile 
+\emph on
+(figura 20 euge)
+\end_layout
+
+\begin_layout Standard
+Su di essa individuo due punti corrispondenti a due stati 
+\begin_inset Formula $A$
+\end_inset
+
+ e 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Il teorema di 
+\emph on
+Clausius
+\emph default
+ afferma che 
+\begin_inset Formula $\oint\frac{\delta Q}{T}\,=\,\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{\Gamma_{1}}+\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{\Gamma_{2}}\,=\,0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{\Gamma_{1}}-\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{\Gamma_{2}}\,=0$
+\end_inset
+
+ da cui segue che 
+\begin_inset Formula $\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{\Gamma_{1}}\,=\,\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{\Gamma_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\int_{A}^{B}\frac{\delta Q}{T}\:=\: S\left(B\right)-S\left(A\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Definiamo quindi 
+\series bold
+Entropia
+\series default
+ (secondo 
+\emph on
+Clausius
+\emph default
+) l'indice di stato fisico (funzione di stato) 
+\begin_inset Formula $S$
+\end_inset
+
+, tale che 
+\begin_inset Formula $S\left(B\right)-S\left(A\right)\,=\,\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{rev}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considero ora una ciclo irreversibile costituito da una trasformazione irreversi
+bile da 
+\begin_inset Formula $A$
+\end_inset
+
+ a 
+\begin_inset Formula $B$
+\end_inset
+
+ e una trasformazione reversibile da 
+\begin_inset Formula $B$
+\end_inset
+
+ ad 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 21 euge)
+\end_layout
+
+\begin_layout Standard
+Il teorema di 
+\emph on
+Clausius
+\emph default
+ afferma che 
+\begin_inset Formula $\oint\frac{\delta Q}{T}\,<\,0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{irr}-\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{rev}\:<\:0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+\begin_inset Formula $\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{rev}\:>\:\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{irr}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula $S\left(B\right)-S\left(A\right)\,>\,\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{irr}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazioni:
+\end_layout
+
+\begin_layout Itemize
+Per una trasformazione da 
+\begin_inset Formula $A$
+\end_inset
+
+ a 
+\begin_inset Formula $B$
+\end_inset
+
+ vale la relazione 
+\begin_inset Formula $\triangle S\,=\, S\left(B\right)-S\left(A\right)\:\geq\:\int_{A}^{B}\frac{\delta Q}{T}$
+\end_inset
+
+ .
+ Dove l'uguale vale se la trasformazione è reversibile e il 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $>$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ vale se la trasformazione è irreversibile.
+\end_layout
+
+\begin_layout Itemize
+In generale per un sistema termodinamico vale 
+\begin_inset Formula $\triangle S\,\geq\,\int_{A}^{B}\frac{\delta Q}{T}$
+\end_inset
+
+.
+ Supponiamo di considerare un sistema termodinamico isolato termicamente
+ (
+\begin_inset Formula $\delta Q\,=\,0$
+\end_inset
+
+).
+ Allora 
+\begin_inset Formula $\triangle S\,\geq\,0$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Paragraph
+Definizione di universo termodinamico
+\end_layout
+
+\begin_layout Standard
+Si dice universo termodinamico di un sistema il sistema termodinamico del
+ sistema in esame e il suo ambiente esterno.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Osservazione:
+\emph default
+ Un universo termodinamico è unsistema isolato, quindi in paticola è anche
+ termicamente isolato.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ad esempio:
+\emph default
+ L'universo astronomico.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Altro esempio:
+\emph default
+ Nell' esperimento di Joule il calorimetro insieme al sistema di acqua.
+\end_layout
+
+\begin_layout Paragraph
+Principio di accrescimento dell'entropia
+\end_layout
+
+\begin_layout Standard
+L'entropia dell'universo non può mai diminuire e anzi aumenta sempre
+\end_layout
+
+\begin_layout Subparagraph
+Dimostrazione:
+\end_layout
+
+\begin_layout Standard
+L'universo è un esempio di universo termodinamico, quindi 
+\begin_inset Formula $\triangle S_{U}\,\geq\,0$
+\end_inset
+
+.
+ Inoltre nell'universo esiste almeno una trasformazione irreversibile, quindi
+ 
+\begin_inset Formula $\triangle S\,>\,0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\triangle S_{U}\,=\,\triangle S+\triangle S_{e}\:\geq\:0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se nella formula abbiamo 
+\begin_inset Formula $>0$
+\end_inset
+
+ allora è irreversibile, se 
+\begin_inset Formula $=0$
+\end_inset
+
+ è reversibile.
+\end_layout
+
+\begin_layout Standard
+Ciò è compatibile con il verificarsi in taluni casi di una variazione negativa
+ di 
+\begin_inset Formula $S$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 22 euge (doppio grafico))
+\end_layout
+
+\begin_layout Paragraph
+Entropia: Trasformazioni reverisibili
+\end_layout
+
+\begin_layout Itemize
+Trasformazione 
+\series bold
+\emph on
+adiabatica
+\series default
+\emph default
+: 
+\begin_inset Formula $\delta Q\,=\:0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow\:\frac{\delta Q}{T}\,=\,0\:\:\Rightarrow\:\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{rev}\,=\, S\left(B\right)-S\left(A\right)\:=\,0$
+\end_inset
+
+ .
+ 
+\emph on
+(figura 23 euge) 
+\emph default
+Le trasformazioni adiabatiche reversibili sono 
+\series bold
+trasformazioni isoentropiche
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+Trasformazione 
+\series bold
+\emph on
+isoterma
+\series default
+\emph default
+: 
+\begin_inset Formula $T\,=\, costante$
+\end_inset
+
+, quindi posso scrivere 
+\begin_inset Formula $S\left(B\right)-S\left(A\right)\,=\,\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{rev}\,=\,\frac{1}{T}\cdot\int_{A}^{B}\left(\delta Q\right)_{rev}$
+\end_inset
+
+ dove sappiamo che 
+\begin_inset Formula $Q_{A\rightarrow B}$
+\end_inset
+
+.
+ Dal primo principio della termodinamica otteniamo che 
+\begin_inset Formula $L_{A\rightarrow B}\,=\, Q_{A\rightarrow B}-\triangle U\:\:\Rightarrow\: L_{A\rightarrow B}\,=\, T\cdot S\left(B\right)-T\cdot S\left(A\right)-U\left(B\right)+U\left(A\right)\:=-\triangle F$
+\end_inset
+
+ con 
+\begin_inset Formula $F\,=\, U-T\cdot S$
+\end_inset
+
+ che viene detta 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+energia libera
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Trasformazione 
+\series bold
+\emph on
+isoterma
+\series default
+\emph default
+ di un 
+\series bold
+\emph on
+gas perfetto
+\series default
+\emph default
+: 
+\begin_inset Formula $\triangle U\,=\,0$
+\end_inset
+
+ e 
+\begin_inset Formula $L_{A\rightarrow B}\,=\, T\cdot\triangle S$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cambiamento di stato: 
+\begin_inset Formula $\triangle S\,=\,\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{rev}\,=\,\frac{1}{T}\cdot\int_{A}^{B}\left(\delta Q\right)_{rev}\,=\,\frac{m\cdot\lambda}{T}$
+\end_inset
+
+ con 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ calore latente di fusione/vaporizzazione/solidificazione/liquefazione.
+\end_layout
+
+\begin_layout Itemize
+Trasformazione generica di gas perfetto: 
+\begin_inset Formula $\delta Q\,=\, n\cdot e_{v}\cdot dT\:+\: p\cdot dV$
+\end_inset
+
+ dove sappiamo che 
+\begin_inset Formula $n\cdot c_{v}\cdot dT\,=\, dU$
+\end_inset
+
+ e 
+\begin_inset Formula $p\cdot dV\,=\,\delta L$
+\end_inset
+
+.
+ Da questo otteniamo che 
+\begin_inset Formula $S\,=\,\left(\frac{\delta Q}{T}\right)\,=\,\frac{n\cdot c_{v}\cdot dT}{T}+\frac{p\cdot dV}{T}\,=$
+\end_inset
+
+
+\begin_inset Formula $n\cdot c_{v}\cdot\frac{dT}{T}\,+\, n\cdot R\cdot\frac{dV}{V}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\triangle S\,=\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{rev}\,=\,\int_{A}^{B}n\cdot c_{v}\cdot\frac{dT}{T}\,+\,\int_{A}^{B}n\cdot R\cdot\frac{dV}{V}$
+\end_inset
+
+ 
+\begin_inset Formula $\:\:\:\Rightarrow\:\:\:$
+\end_inset
+
+ 
+\begin_inset Formula $\triangle S\,=\, n\cdot c_{v}\cdot ln\left(\frac{T_{B}}{T_{A}}\right)+n\cdot c_{v}\cdot\frac{R}{c_{v}}\cdot ln\left(\frac{V_{B}}{V_{A}}\right)\,=$
+\end_inset
+
+ 
+\begin_inset Formula $n\cdot c_{v}\cdot\left[ln\left(\frac{T_{B}}{T_{A}}\right)+\left(\gamma-1\right)\cdot ln\left(\frac{V_{B}}{V_{A}}\right)\right]\,=$
+\end_inset
+
+
+\begin_inset Formula $n\cdot c_{v}\cdot\left[ln\left(\frac{T_{B}\cdot V_{B}^{\gamma-1}}{T_{A}\cdot V_{A}^{\gamma-1}}\right)\right]$
+\end_inset
+
+.
+ 
+\emph on
+Osservazione:
+\emph default
+ 
+\begin_inset Formula $S\,=\, n\cdot c_{v}\cdot ln\left(T\cdot V^{\gamma-1}\right)+costante$
+\end_inset
+
+ comprendo di nuovo che 
+\series bold
+le adiabatiche reversibili sono isoentropiche.
+\end_layout
+
+\begin_layout Itemize
+Solidi e liquidi: Ipotizziamo non avvengano cambiamenti distato.
+ 
+\begin_inset Formula $\delta Q\:=\:\delta L+dU$
+\end_inset
+
+ (dove 
+\begin_inset Formula $\delta L$
+\end_inset
+
+ è 
+\begin_inset Formula $0$
+\end_inset
+
+ per l'incomprimibilità).
+ 
+\begin_inset Formula $\delta Q\,=\, C\cdot dT$
+\end_inset
+
+ con 
+\begin_inset Formula $C$
+\end_inset
+
+ la capacità termica.
+ 
+\begin_inset Formula $\triangle S\,=\,\int_{A}^{B}C\cdot\frac{dT}{T}\,=\, C\cdot\int_{A}^{B}\frac{dT}{T}\,=\, c\cdot ln\left(\frac{T_{B}}{T_{A}}\right)$
+\end_inset
+
+ se 
+\begin_inset Formula $C$
+\end_inset
+
+ è indipendente da 
+\begin_inset Formula $T$
+\end_inset
+
+ (abbastanza vero ma non sempre).
+ 
+\begin_inset Formula $S\,=\, C\cdot ln\left(T\right)+costante$
+\end_inset
+
+.
+ Se 
+\begin_inset Formula $T\rightarrow0K$
+\end_inset
+
+ e 
+\begin_inset Formula $S\rightarrow-\infty$
+\end_inset
+
+.
+ In realtà 
+\begin_inset Formula $C\,=\, C\left(T\right)$
+\end_inset
+
+ e a basse temperature la dipendenza di 
+\begin_inset Formula $C$
+\end_inset
+
+ da 
+\begin_inset Formula $T$
+\end_inset
+
+ è forte e fa si che 
+\begin_inset Formula $\underset{T\rightarrow0}{lim}S\left(T\right)$
+\end_inset
+
+finita.
+ 
+\emph on
+(figura 24 euge)
+\end_layout
+
+\begin_layout Paragraph
+Entropia: Trasformazioni irreverisibili
+\end_layout
+
+\begin_layout Itemize
+Trasformazione 
+\series bold
+\emph on
+isoterma (o monoterma) irreversibile
+\series default
+\emph default
+: 
+\begin_inset Formula $S\left(B\right)-S\left(A\right)\,>\,\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{irr}\,=\,\int_{A}^{B}\left(\delta Q\right)_{irr}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\int_{A}^{B}\left(\delta Q\right)_{irr}\,=\, Q_{A\rightarrow B}\,=\, L_{A\rightarrow B}+U\left(B\right)-U\left(A\right)$
+\end_inset
+
+.
+ 
+\begin_inset Formula $L_{A\rightarrow B}<\left[U\left(A\right)-T\cdot S\left(A\right)\right]-\left[U\left(B\right)-T\cdot S\left(B\right)\right]\,=\,-\triangle F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Trasformazione 
+\series bold
+\emph on
+adiabatica irreversibile
+\series default
+\emph default
+: 
+\begin_inset Formula $S\left(B\right)-S\left(A\right)\,>\,\int_{A}^{B}\left(\frac{\delta Q}{T}\right)_{irr}\,=\,0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Modello di gas ideale (cinetico)
+\end_layout
+
+\begin_layout Standard
+Basato sui seguenti fondamenti:
+\end_layout
+
+\begin_layout Enumerate
+Le molecole sono tutte uguali (ugual massa) e hanno volume trascurabile.
+ Sono presenti in numero elevatissimo.
+\end_layout
+
+\begin_layout Enumerate
+Le molecole non interagiscono tra loro se non per urti perfettamente elastici.
+\end_layout
+
+\begin_layout Enumerate
+Le molecole sono assumibili a sferette rigide
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(figura 25 euge)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overrightarrow{V_{1}}\,=\, V_{1x}\cdot\hat{U_{x}}+V_{1y}\cdot\hat{U_{y}}+V_{1z}\cdot\hat{U_{z}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\triangle p_{1x}\,=\, p'_{1x}-p_{1x}\,=\,-2\cdot m\cdot v_{1x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\triangle t\,=\,\frac{2\cdot l}{V_{1x}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\triangle p_{1x}}{\triangle t}\,=\,\frac{-2\cdot m\cdot V_{1x}^{2}}{2l}\,=\,-\frac{m\cdot V_{1x}^{2}}{l}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F_{1x}\,=\,-\frac{\triangle p_{1x}}{\triangle t}\,=\,\frac{m\cdot V_{1x}^{2}}{l}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F_{x}\,=\,\overset{N}{\underset{i=1}{\sum}}F_{ix}\,=\,\frac{N\cdot m}{l}\cdot\frac{\left(V_{1x}^{2}+V_{2x}^{2}+\ldots+V_{Nx}^{2}\right)}{N}\,=$
+\end_inset
+
+
+\begin_inset Formula $\frac{N\cdot m}{l}\cdot V_{qm,x}^{2}$
+\end_inset
+
+ con 
+\begin_inset Formula $V_{qm,x}^{2}\,=\,\overset{N}{\underset{i=1}{\sum}}\frac{V_{i,x}^{2}}{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{m}{l}\cdot V_{qm,x}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{x}=\frac{F_{x}}{l^{2}}=\frac{m}{l^{3}}\cdot V_{qm,x}^{2}\,=\, p\cdot V_{qm,x}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{y}\,=\, p\cdot V_{qm,y}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{z}\,=\, p\cdot V_{qm,z}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da cui otteniamo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{qm,x}^{2}\,=\, V_{qm,y}^{2}\,=\, V_{qm,z}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{qm}^{2}\,=\, V_{qm,x}^{2}\,+\, V_{qm,y}^{2}\,+\, V_{qm,z}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{qm,x}^{2}\,=\, V_{qm,y}^{2}\,=\, V_{qm,z}^{2}\,=\frac{1}{3}\cdot V_{qm}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da cui finalmente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p\,=\,\frac{1}{3}\cdot p\cdot V_{qm}^{2}$
+\end_inset
+
+ isotropicamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U$
+\end_inset
+
+ gas ideale è solo energia cinetica delle sue molecole (
+\begin_inset Formula $E_{p,i}\,=\,0$
+\end_inset
+
+): 
+\begin_inset Formula $U\,=\,\frac{1}{2}\cdot m\cdot V_{1}^{2}+\frac{1}{2}\cdot m\cdot V_{2}^{2}+\ldots+\frac{1}{2}\cdot m\cdot V_{N}^{2}\,=$
+\end_inset
+
+
+\begin_inset Formula $\frac{1}{2}\cdot m\cdot N\cdot\frac{V_{1}^{2}+V_{2}^{2}+\ldots+V_{N}^{2}}{N}\,=\,\frac{1}{2}\cdot N\cdot m\cdot V_{qm}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\,\frac{1}{2}\cdot m\cdot V_{qm}^{2}$
+\end_inset
+
+ con 
+\begin_inset Formula $V_{qm}^{2}\,=\,\overset{N}{\underset{i=1}{\sum}}\frac{V_{i}^{2}}{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mettendo a sistema le seguenti due euquazioni:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p\,=\,\frac{1}{3}\cdot\frac{m}{V}\cdot V_{qm}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U\,=\,\frac{1}{2}\cdot m\cdot V_{qm}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+si ottiene: 
+\begin_inset Formula $p\cdot V\,=\,\frac{2}{3}\cdot U$
+\end_inset
+
+ a cui aggiungiamo l'equazione di stato del gas ideale (
+\begin_inset Formula $p\cdot V\,=\, n\cdot R\cdot T$
+\end_inset
+
+) e otteniamo definitivamente: 
+\begin_inset Formula $U\,=\,\frac{3}{2}\cdot n\cdot R\cdot T$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U\,=\,\frac{3}{2}\cdot n\cdot R\cdot T$
+\end_inset
+
+ e 
+\begin_inset Formula $U\,=\,\frac{1}{2}\cdot m\cdot V_{qm}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T\,=\,\frac{M}{3R}\cdot V_{qm}^{2}$
+\end_inset
+
+(termperatura cinetica), con 
+\begin_inset Formula $M\,=\,\frac{m}{n}$
+\end_inset
+
+ (massa molare del gas)
+\end_layout
+
+\begin_layout Standard
+L'energia interna totale del gas è 
+\begin_inset Formula $U\,=\,\frac{3}{2}\cdot n\cdot R\cdot T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U_{mol}\,=\frac{U}{N}\,=\,\frac{3}{2}\cdot\frac{N}{N_{A}}\cdot\frac{R}{N}\cdot T\:=\:\frac{3}{2}\cdot\frac{R}{N_{A}}\cdot T\,=\,\frac{3}{2}\cdot k\cdot T$
+\end_inset
+
+ dove k è la costante di 
+\emph on
+Boltzman
+\emph default
+ 
+\begin_inset Formula $k\,=\,1,38\cdot10^{-23}\frac{J}{K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+L'ipotesi statistica di Boltzman: principio di equipartizione dell'energia
+\end_layout
+
+\begin_layout Standard
+Ad ogni grado di libertà di un sistema fisico microscopico corrisponde la
+ quantità di energia 
+\begin_inset Formula $\frac{1}{2}\cdot k\cdot T$
+\end_inset
+
+, con 
+\begin_inset Formula $T$
+\end_inset
+
+ la temperatura assoluta del sistema.
+\end_layout
+
+\begin_layout Itemize
+Gas ideale 
+\series bold
+\emph on
+monoatomico
+\series default
+\emph default
+: Gradi di libertà (
+\emph on
+GDL
+\emph default
+)
+\begin_inset Formula $=3$
+\end_inset
+
+ , le coordinate 
+\begin_inset Formula $x,y,z$
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow U_{mol}=3\cdot\frac{1}{2}\cdot k\cdot T=\frac{3}{2}\cdot k\cdot T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Gas ideale 
+\series bold
+\emph on
+biatomico
+\series default
+\emph default
+: Ha 5 gradi di libertà: coordinate 
+\begin_inset Formula $x,y,z$
+\end_inset
+
+ di un atomo della coppia, più due coordinate angolari per individuare il
+ secondo atomo: 
+\begin_inset Formula $\Rightarrow U_{mol}\,=\,5\cdot\frac{1}{2}\cdot k\cdot T\,=\,\frac{5}{2}\cdot k\cdot T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Gas ideale 
+\series bold
+\emph on
+triatomico
+\series default
+\emph default
+ o 
+\series bold
+\emph on
+poliatomico
+\series default
+\emph default
+: Ha 6 gradi di libertà: coordinate 
+\begin_inset Formula $x,y,z$
+\end_inset
+
+ di un atomod della molecola, più due coordinate angolari di un secondo
+ atomo, più una coordinata angolare che individua la posizione angolare
+ rispetto all'asse formato dai primi due.
+ 
+\begin_inset Formula $U_{mol}\,=\,6\cdot\frac{1}{2}\cdot k\cdot T$
+\end_inset
+
+ di un secondo atomo 
+\begin_inset Formula $=3\cdot k\cdot T+1$
+\end_inset
+
+ coordinata angolare.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{v}\,=\,\frac{1}{n}\cdot\left(\frac{\delta Q}{dT}\right)_{v}\,=$
+\end_inset
+
+(utilizzando il primo principio della termodinamica) 
+\begin_inset Formula $=\frac{1}{n}\cdot\left(\frac{dU}{dT}\right)=\frac{1}{n}\cdot N\cdot\left(\frac{dU_{mol}}{dT}\right)=\frac{1}{n}\cdot N\cdot F\cdot\frac{1}{2}\cdot k$
+\end_inset
+
+ con 
+\begin_inset Formula $F$
+\end_inset
+
+ numero di gradi di libertà.
+ 
+\begin_inset Formula $k=\frac{R}{N_{A}}$
+\end_inset
+
+, 
+\begin_inset Formula $n\,=\,\frac{N}{N_{A}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{N_{A}}{N}\cdot N\cdot F\cdot\frac{1}{2}\cdot\frac{R}{N_{A}}\,=\, F\cdot\frac{1}{2}\cdot R$
+\end_inset
+
+
 \end_layout
 
 \end_body
