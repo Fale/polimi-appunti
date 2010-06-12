@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -4648,9 +4648,17 @@ Entropia
 \end_layout
 
 \begin_layout Standard
-Considero un ciclo reversibile 
-\emph on
-(figura 20 euge)
+Considero un ciclo reversibile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 20.jpg
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4736,7 +4744,13 @@ bile da
 \begin_layout Standard
 
 \emph on
-(figura 21 euge)
+\begin_inset Graphics
+	filename 21.jpg
+	scale 30
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4931,7 +4945,13 @@ Ciò è compatibile con il verificarsi in taluni casi di una variazione negativa
 \begin_layout Standard
 
 \emph on
-(figura 22 euge (doppio grafico))
+\begin_inset Graphics
+	filename 22.jpg
+	scale 25
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -4956,7 +4976,14 @@ adiabatica
  .
  
 \emph on
-(figura 23 euge) 
+
+\begin_inset Graphics
+	filename 23.jpg
+	scale 20
+
+\end_inset
+
+ 
 \emph default
 Le trasformazioni adiabatiche reversibili sono 
 \series bold
@@ -5171,7 +5198,14 @@ Solidi e liquidi: Ipotizziamo non avvengano cambiamenti distato.
 finita.
  
 \emph on
-(figura 24 euge)
+
+\begin_inset Graphics
+	filename 24.jpg
+	scale 20
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -5240,7 +5274,13 @@ Le molecole sono assumibili a sferette rigide
 \begin_layout Standard
 
 \emph on
-(figura 25 euge)
+\begin_inset Graphics
+	filename 25.jpg
+	scale 20
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5588,6 +5628,17 @@ poliatomico
 \end_inset
 
 
+\end_layout
+
+\begin_layout LyX-Code
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+...
+ E vissero tutti felici e contenti!
 \end_layout
 
 \end_body
